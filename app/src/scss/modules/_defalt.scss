@@ -1,0 +1,43 @@
+/**
+* Reset av broser adding 
+*
+*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+////////////////////////
+
+$container: 1000px;
+$padding--l: 30px;
+$padding--s: 15px;
+$padding--xs: 5px;
+
+$font--s: 15px;
+$font--m: 23px;
+$font--l: 25px;
+$font--lx: 37px;
+
+.box,
+.box-1,
+.box-2,
+.content-box {
+  display: flex;
+}
+
+body {
+  font-family: "Comfortaa", "Montserrat", sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+a,
+ul,
+li {
+  list-style-type: none;
+}

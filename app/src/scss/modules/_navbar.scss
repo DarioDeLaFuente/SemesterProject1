@@ -1,0 +1,72 @@
+.txtSideNav {
+  color: #0b3d5e;
+  font-size: 10px;
+}
+
+.mdSideNav.openSideNav {
+  width: 50%;
+}
+
+.mdSideNav.closeSideNav {
+  width: 0;
+}
+
+.openNav {
+  font-size: 30px;
+  cursor: pointer;
+  color: #18a0fb;
+}
+
+.mdSideNav {
+  justify-content: center;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  right: 0;
+  background-color: #ededed;
+  overflow-x: hidden;
+  transition: width 0.5s;
+  padding-top: 80px;
+}
+
+.mdSideNav a {
+  display: grid;
+  justify-items: end;
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #18a0fb;
+  transition: width 0.3s;
+  margin: 10px;
+}
+
+.mdSideNav a:hover {
+  color: #0b3d5e;
+}
+
+.mdSideNav .sideNavCloseButton {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  color: #18a0fb;
+  background-color: #ededed;
+}
+.topnav,
+.mdSideNav {
+  display: flex;
+}
+.topnav {
+  justify-content: flex-end;
+  margin: 25px;
+  margin-top: -80px;
+}
+
+@media #{$screen__l} {
+  .mdSideNav.openSideNav {
+    width: 50%;
+  }
+}

@@ -1,5 +1,6 @@
 ## RUN DOCKER
 docker-compose up -d
+
 docker-compose start
 
 npm install
@@ -9,8 +10,6 @@ docker-compose stop
 
 
 ## RUN SCSS
-
-npm run bulid
 
 npm run watch
 
