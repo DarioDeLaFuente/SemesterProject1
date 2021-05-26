@@ -20,12 +20,10 @@ $font--m: 23px;
 $font--l: 25px;
 $font--lx: 37px;
 
-.box,
-.box-1,
-.box-2,
-.content-box {
-  display: flex;
+main {
+  flex: 1;
 }
+
 
 body {
   font-family: "Comfortaa", "Montserrat", sans-serif;
@@ -40,4 +38,11 @@ a,
 ul,
 li {
   list-style-type: none;
+}
+
+.box,
+.box-1,
+.box-2,
+.content-box {
+  display: flex;
 }
