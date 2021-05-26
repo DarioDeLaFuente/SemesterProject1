@@ -2,7 +2,7 @@
  * Description: Load data from the server and place the returned HTML into the matched elements. .load()
  */
  $( ".header" ).load( "../components/header.html" );
- $( ".topnav" ).load( "../components/nav.html" );
+ $( ".nav" ).load( "../components/nav.html" );
  $( ".footer" ).load( "../components/footer.html" );
 
 
