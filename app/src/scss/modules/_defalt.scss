@@ -27,6 +27,7 @@ main {
 
 body {
   font-family: "Comfortaa", "Montserrat", sans-serif;
+  font-weight: 900;
   margin: 0;
   min-height: 100vh;
   display: flex;
@@ -45,4 +46,15 @@ li {
 .box-2,
 .content-box {
   display: flex;
+}
+
+
+
+p, h1 {
+  font-size:12px;
+} 
+@media #{$screen__l} {
+  p, h1 {
+    font-size:19px;
+  }
 }
