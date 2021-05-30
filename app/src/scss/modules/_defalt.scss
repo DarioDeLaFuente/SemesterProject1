@@ -50,11 +50,11 @@ li {
 
 
 
-p, h1 {
+p, h1, h2, h3 {
   font-size:12px;
 } 
 @media #{$screen__l} {
-  p, h1 {
+  p, h1, h2, h3 {
     font-size:19px;
   }
 }

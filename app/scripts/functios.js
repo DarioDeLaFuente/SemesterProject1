@@ -5,6 +5,10 @@
  $( ".nav" ).load( "../components/nav.html" );
  $( ".footer" ).load( "../components/footer.html" );
 
+ //Body components
+ $( ".hero-e" ).load( "../components/body-components/hero-e.html" );
+ 
+
 
  /** 
   * It includes openNav
