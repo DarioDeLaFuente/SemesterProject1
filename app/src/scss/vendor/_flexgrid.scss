@@ -38,3 +38,37 @@ $screen__m: "only screen and (min-width: 768px)";
     max-width: 33.33333%;
   }
 }
+
+
+
+
+/**
+ * Grid Containers
+ *
+ * This is the root elements 4 Grid Containers object. 
+ * NB! Mobile first 
+ *
+ *
+*/
+
+
+.hero-grid-container, .footer-grid  {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.hero-grid-container {
+    display: grid;
+    gap: 0px 0px;
+  }
+  
+  .footer-grid {
+    gap: 5px 0px;
+    
+  }
+
+  .footer-container-grid {
+    grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+  
