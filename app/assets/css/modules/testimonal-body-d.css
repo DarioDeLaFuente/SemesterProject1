@@ -1,0 +1,73 @@
+.testimonial-body-d-grid-container {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 15px 15px;
+  padding-top: 35px;
+  padding: 50px 80px;
+  grid-template-areas: "testimonial-body-d testimonial-body-d testimonial-body-d testimonial-body-d" "testimonial-body-d-box-1 testimonial-body-d-box-2 testimonial-body-d-box-3 testimonial-body-d-box-4" "testimonial-body-d-box-5 testimonial-body-d-box-6 testimonial-body-d-box-7 testimonial-body-d-box-8"; }
+  .testimonial-body-d-grid-container p {
+    font-size: 15px;
+    font-weight: 100; }
+  .testimonial-body-d-grid-container h1 {
+    font-size: 35px; }
+
+.testimonial-body-d {
+  grid-area: testimonial-body-d;
+  text-align: center; }
+
+.testimonial-body-d-box-1 {
+  grid-area: testimonial-body-d-box-1; }
+
+.testimonial-body-d-box-2 {
+  grid-area: testimonial-body-d-box-2; }
+
+.testimonial-body-d-box-3 {
+  grid-area: testimonial-body-d-box-3; }
+
+.testimonial-body-d-box-4 {
+  grid-area: testimonial-body-d-box-4; }
+
+.testimonial-body-d-box-5 {
+  grid-area: testimonial-body-d-box-5; }
+
+.testimonial-body-d-box-6 {
+  grid-area: testimonial-body-d-box-6; }
+
+.testimonial-body-d-box-7 {
+  grid-area: testimonial-body-d-box-7; }
+
+.testimonial-body-d-box-8 {
+  grid-area: testimonial-body-d-box-8; }
+
+.testimonial-body-d-box-1,
+.testimonial-body-d-box-2,
+.testimonial-body-d-box-3,
+.testimonial-body-d-box-4,
+.testimonial-body-d-box-5,
+.testimonial-body-d-box-6,
+.testimonial-body-d-box-7,
+.testimonial-body-d-box-8 {
+  margin: 30px; }
+  .testimonial-body-d-box-1 .testimonial-body-d-button,
+  .testimonial-body-d-box-2 .testimonial-body-d-button,
+  .testimonial-body-d-box-3 .testimonial-body-d-button,
+  .testimonial-body-d-box-4 .testimonial-body-d-button,
+  .testimonial-body-d-box-5 .testimonial-body-d-button,
+  .testimonial-body-d-box-6 .testimonial-body-d-button,
+  .testimonial-body-d-box-7 .testimonial-body-d-button,
+  .testimonial-body-d-box-8 .testimonial-body-d-button {
+    background-color: #18a0fb;
+    border-radius: 28px;
+    font-size: 38px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none; }
+  .testimonial-body-d-box-1__:hover,
+  .testimonial-body-d-box-2__:hover,
+  .testimonial-body-d-box-3__:hover,
+  .testimonial-body-d-box-4__:hover,
+  .testimonial-body-d-box-5__:hover,
+  .testimonial-body-d-box-6__:hover,
+  .testimonial-body-d-box-7__:hover,
+  .testimonial-body-d-box-8__:hover {
+    background-color: #0b3d5e;
+    text-decoration: none; }
