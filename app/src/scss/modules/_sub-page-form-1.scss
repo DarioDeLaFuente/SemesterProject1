@@ -1,0 +1,90 @@
+.community-form-grid-container {
+    display: grid;
+    height: 30%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.1fr 0.1fr 0.1fr;
+    gap: 7px 0px;
+    grid-template-areas:
+      "community-form-box community-form-box"
+      "community-form-box-1 community-form-box-1"
+      "community-form-box-2 community-form-box-2"
+      "community-form-box-3 community-form-box-3"
+      "community-form-box-4 community-form-box-4";
+  }
+  
+  .community-form-box { 
+    grid-area: community-form-box;
+   }
+  
+  .community-form-box-1 { 
+    grid-area: community-form-box-1;
+   }
+  
+  .community-form-box-2 { 
+    grid-area: community-form-box-2;
+   }
+
+  .community-form-box-3 { 
+    grid-area: community-form-box-3;
+    height:200px
+  }
+
+
+  .community-form-box-4 { 
+    grid-area: community-form-box-4;
+    // her er den feil må prøve sette den så den føller tex box ikke form box
+    input[type=submit] {
+      width: 100%;
+      background-color: #18a0fbc2;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      float: right;
+      @media #{$screen__l} {
+      width: 80px;
+      height: 80px;
+      border-radius: 100%;
+      position: absolute;
+      left: 80%;
+      top: 50%;
+      z-index: 11;
+      }
+    }
+    
+    input[type=submit]:hover {
+      background-color: #096fb6b5;
+    } 
+  }
+
+  .community-form-box, .community-form-box-1, .community-form-box-2, .community-form-box-3, .community-form-box-4 {
+    width: 100%; 
+  } 
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    //cursor: pointer;
+    @media #{$screen__l} {
+      width: 80%;
+    }
+  }
+
+  
+
+  .box-container {
+    background-color: #f2f2f2;
+  }
+
+  .hedder-box-grid-center{
+      width: 70%;
+      text-align: center;
+  }
+
+  .form-box {
+    text-align: center;
+    margin: 150px;
+  }

@@ -1,4 +1,5 @@
 .hero-grid-container {
+  height: 555px;
   grid-template-areas:
     "hero-box-e-1"
     "hero-box-e-2";
@@ -7,30 +8,31 @@
 .hero-box-e-1 {
   grid-area: hero-box-e-1;
 }
-.hero-baner{
-    display: none;
-}
+
 .hero-box-e-2 {
-    grid-area: hero-box-e-2;
-@media #{$screen__l} {
+  grid-area: hero-box-e-2;
+
     h3 {
-      background-color: #000;
-      height: 95px;
+      background-color: #18a0fbc2;
       color: #fff;
       display: flex;
       justify-content: center;
       margin-top: -105px;
+      font-size: $font--lx;
+      @media #{$screen__l} {
       font-size: 70px;
+      }
     }
   }
-}
 
-@media #{$screen__l} {
+
+
   .baner-img {
     height: 500px;
     background-image: url(../../media/scott-webb.jpg);
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
   }
-}
+

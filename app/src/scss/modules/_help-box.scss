@@ -1,0 +1,17 @@
+.help-grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "help-box";
+  }
+  
+  .help-box { 
+      grid-area: help-box;
+      width: 70%;
+      text-align: center;
+      padding: 50px 50px;
+    }
+  
+  

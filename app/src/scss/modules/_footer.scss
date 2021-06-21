@@ -1,74 +1,81 @@
-.footer-grid, .footer-container-grid  {
-    display: block;
-    @media #{$screen__l} {
-        display: grid;
-      }
+.footer-grid,
+.footer-container-grid {
+  display: block;
+  @media #{$screen__l} {
+    display: grid;
+  }
 }
-.footer-box-1, .footer-box-2, .footer-logo-box, .footer-box-3, .footer-box-4, .footer-bottom-box {
-    text-align: center;
-    margin: 15px;
-    @media #{$screen__l} {
-        font-weight: normal;
-    }
+.footer-box-1,
+.footer-box-2,
+.footer-logo-box,
+.footer-box-3,
+.footer-box-4,
+.footer-bottom-box {
+  text-align: center;
+  margin: 15px;
+  a{
+    color: #000;
+  }
+  @media #{$screen__l} {
+    font-weight: normal;
+  }
 }
 
 .footer-grid {
-    gap: 5px 0px;
-    grid-template-areas:
-      "top-footer"
-      "bottom-footer";
+  gap: 5px 0px;
+  grid-template-areas:
+    "top-footer"
+    "bottom-footer";
+}
+
+.top-footer {
+  grid-area: top-footer;
+}
+
+.bottom-footer {
+  grid-area: bottom-footer;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  padding-top: 20px;
+  a{
+    color: #000;
   }
-  
-  .top-footer { 
-      grid-area: top-footer; 
-    }
-  
-  .bottom-footer { 
-      grid-area: bottom-footer;
-      display: flex;
-      flex-flow: wrap;
-      justify-content: center;
-      padding-top: 20px;      
-    }
-  
+}
 
-    .footer-container-grid {
-        gap: 5px 5px;
-        padding: 15px 15px;
-        grid-template-areas:
-          "footer-box-1 footer-box-2 footer-logo-box footer-box-3 footer-box-4";
-      }
-      
-     
-      .footer-box-1 { 
-          grid-area: footer-box-1; 
-        }
-      
-      .footer-box-2 { 
-          grid-area: footer-box-2; 
-        }
-      
-      .footer-logo-box { 
-            display: none;
-          @media #{$screen__l} {
-            grid-area: footer-logo-box;
-            display: block; 
-          }
-        }
+.footer-container-grid {
+  gap: 5px 5px;
+  padding: 15px 15px;
+  grid-template-areas: "footer-box-1 footer-box-2 footer-logo-box footer-box-3 footer-box-4";
+}
 
-      .footer-box-3 { 
-          grid-area: footer-box-3; 
-        }
-      
-      .footer-box-4 { 
-          grid-area: footer-box-4; 
-        }
+.footer-box-1 {
+  grid-area: footer-box-1;
+}
 
+.footer-box-2 {
+  grid-area: footer-box-2;
+}
 
-        @media #{$screen__l} {
-            .footer-border { 
-                border-top:solid #000  1px;
-                margin: 0 50px 0 50px;
-            }           
-        }
-        
+.footer-logo-box {
+  display: none;
+  @media #{$screen__l} {
+    grid-area: footer-logo-box;
+    display: block;
+  }
+}
+
+.footer-box-3 {
+  grid-area: footer-box-3;
+}
+
+.footer-box-4 {
+  grid-area: footer-box-4;
+}
+
+@media #{$screen__l} {
+  .footer-border {
+    border-top: solid #000 1px;
+    margin: 0 50px 0 50px;
+  }
+}
