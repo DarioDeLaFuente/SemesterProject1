@@ -56,6 +56,10 @@
 }
 
 .product-box:hover .product-box-layer {
+  -ms-transform: translateY(180deg);
+  -webkit-transform: translateY(180deg);
+  -moz-transform: translateY(180deg);
+  -o-transform: translateY(180deg);
   transform: rotateY(180deg);
 }
 
@@ -63,12 +67,13 @@
 .product-box-back-layer {
   position: absolute;
   width: 100%;
+  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 
 .product-box-front-layer {
   background-color: transparent;
-  box-shadow: 0 15px 15px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.2);
 }
 
 .product-box-back-layer {
@@ -76,90 +81,93 @@
   padding: 25px 15px;
   height: 250px;
   color: #fff;
+  -ms-transform: translateY(180deg);
+  -webkit-transform: translateY(180deg);
+  -moz-transform: translateY(180deg);
+  -o-transform: translateY(180deg);
   transform: rotateY(180deg);
   p {
     font-size: 15px;
   }
 }
 
-
 .product-box-img {
-    background-image: url("../../../media/");
-    min-height: 250px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    cursor: pointer;
-  }
+  background-image: url("../../../media/");
+  min-height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
 
-  .product-box-img-2 {
-    background-image: url("../../../media/");
-    min-height: 250px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    cursor: pointer;
-  }
+.product-box-img-2 {
+  background-image: url("../../../media/");
+  min-height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
 
-  .product-box-img-3 {
-    background-image: url("../../../media/");
-    min-height: 250px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    cursor: pointer;
-  }
+.product-box-img-3 {
+  background-image: url("../../../media/");
+  min-height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
 
-  .product-box-img-4 {
-    background-image: url("../../../media/");
-    min-height: 250px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    cursor: pointer;
-  }
+.product-box-img-4 {
+  background-image: url("../../../media/");
+  min-height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
 
-  .product-box-img-5 {
-    background-image: url("../../../media/");
-    min-height: 250px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    cursor: pointer;
-  }
+.product-box-img-5 {
+  background-image: url("../../../media/");
+  min-height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
 
-  .product-box-img-6 {
-    background-image: url("../../../media/");
-    min-height: 250px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    cursor: pointer;
-  }
+.product-box-img-6 {
+  background-image: url("../../../media/");
+  min-height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
 
-  .product-box-img-7 {
-    background-image: url("../../../media/");
-    min-height: 250px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    cursor: pointer;
-  }
+.product-box-img-7 {
+  background-image: url("../../../media/");
+  min-height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
 
-  .product-box-img-8 {
-    background-image: url("../../../media/");
-    min-height: 250px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    cursor: pointer;
-  }
+.product-box-img-8 {
+  background-image: url("../../../media/");
+  min-height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
 
-  .product-box-img-9 {
-    background-image: url("../../../media/");
-    min-height: 250px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    cursor: pointer;
-  }
+.product-box-img-9 {
+  background-image: url("../../../media/");
+  min-height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}

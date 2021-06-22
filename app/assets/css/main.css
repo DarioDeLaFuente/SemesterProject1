@@ -1079,12 +1079,17 @@ h3 {
   transform-style: preserve-3d; }
 
 .product-box:hover .product-box-layer {
+  -ms-transform: translateY(180deg);
+  -webkit-transform: translateY(180deg);
+  -moz-transform: translateY(180deg);
+  -o-transform: translateY(180deg);
   transform: rotateY(180deg); }
 
 .product-box-front-layer,
 .product-box-back-layer {
   position: absolute;
   width: 100%;
+  -webkit-backface-visibility: hidden;
   backface-visibility: hidden; }
 
 .product-box-front-layer {
@@ -1096,6 +1101,10 @@ h3 {
   padding: 25px 15px;
   height: 250px;
   color: #fff;
+  -ms-transform: translateY(180deg);
+  -webkit-transform: translateY(180deg);
+  -moz-transform: translateY(180deg);
+  -o-transform: translateY(180deg);
   transform: rotateY(180deg); }
   .product-box-back-layer p {
     font-size: 15px; }
