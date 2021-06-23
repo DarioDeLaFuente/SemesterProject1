@@ -199,6 +199,9 @@ main {
 html {
   scroll-behavior: smooth; }
 
+img {
+  width: 100%; }
+
 body {
   font-family: "Comfortaa", "Montserrat", sans-serif;
   font-weight: 100;
@@ -406,12 +409,16 @@ h3 {
         font-size: 70px; } }
 
 .baner-img {
+  width: 100%;
   height: 500px;
   background-image: url(../../media/scott-webb.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover; }
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; }
 
 .body-b-grid-container {
   grid-template-areas: "bady-box-b-1 body-box-b-2 body-box-b-3"; }
@@ -556,7 +563,10 @@ h3 {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; }
   @media only screen and (min-width: 1024px) {
     .body-e-box-img {
       background-attachment: scroll; } }
@@ -565,7 +575,7 @@ h3 {
   grid-template-areas: "body-f-box-1 body-f-box-2"; }
 
 .body-f-grid-container {
-  background-color: #F5F5F5; }
+  background-color: #f5f5f5; }
 
 .body-f-box-2 {
   grid-area: body-f-box-2; }
@@ -588,7 +598,10 @@ h3 {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; }
   @media only screen and (min-width: 1024px) {
     .body-f-box-img {
       background-attachment: scroll; } }
@@ -617,7 +630,10 @@ h3 {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; }
   @media only screen and (min-width: 1024px) {
     .body-g-box-img {
       background-attachment: scroll; } }
@@ -779,7 +795,10 @@ h3 {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; }
   @media only screen and (min-width: 1024px) {
     .sub-page-body-g-box-img {
       background-attachment: scroll; } }
@@ -807,7 +826,10 @@ h3 {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; }
   @media only screen and (min-width: 1024px) {
     .sub-page-body-d-box-img {
       background-attachment: scroll; } }
@@ -835,7 +857,10 @@ h3 {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; }
   @media only screen and (min-width: 1024px) {
     .sub-page-body-c-box-img {
       background-attachment: scroll; } }
@@ -863,7 +888,10 @@ h3 {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; }
   @media only screen and (min-width: 1024px) {
     .sub-page-body-a-box-img {
       background-attachment: scroll; } }
@@ -891,7 +919,10 @@ h3 {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; }
   @media only screen and (min-width: 1024px) {
     .sub-page-body-b-box-img {
       background-attachment: scroll; } }
@@ -919,7 +950,10 @@ h3 {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; }
   @media only screen and (min-width: 1024px) {
     .sub-page-body-e-box-img {
       background-attachment: scroll; } }
@@ -947,7 +981,10 @@ h3 {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; }
   @media only screen and (min-width: 1024px) {
     .sub-page-body-f-box-img {
       background-attachment: scroll; } }
@@ -975,7 +1012,10 @@ h3 {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; }
   @media only screen and (min-width: 1024px) {
     .sub-page-body-h-box-img {
       background-attachment: scroll; } }
@@ -1111,74 +1151,110 @@ h3 {
 
 .product-box-img {
   background-image: url("../../../media/");
+  width: 100%;
   min-height: 250px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   cursor: pointer; }
 
 .product-box-img-2 {
   background-image: url("../../../media/");
+  width: 100%;
   min-height: 250px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   cursor: pointer; }
 
 .product-box-img-3 {
   background-image: url("../../../media/");
+  width: 100%;
   min-height: 250px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   cursor: pointer; }
 
 .product-box-img-4 {
   background-image: url("../../../media/");
+  width: 100%;
   min-height: 250px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   cursor: pointer; }
 
 .product-box-img-5 {
   background-image: url("../../../media/");
+  width: 100%;
   min-height: 250px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   cursor: pointer; }
 
 .product-box-img-6 {
   background-image: url("../../../media/");
+  width: 100%;
   min-height: 250px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   cursor: pointer; }
 
 .product-box-img-7 {
   background-image: url("../../../media/");
+  width: 100%;
   min-height: 250px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   cursor: pointer; }
 
 .product-box-img-8 {
   background-image: url("../../../media/");
+  width: 100%;
   min-height: 250px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   cursor: pointer; }
 
 .product-box-img-9 {
   background-image: url("../../../media/");
+  width: 100%;
   min-height: 250px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   cursor: pointer; }
 
 .shop-box-2-grid-container {
@@ -1225,74 +1301,110 @@ h3 {
 
 .product-box-img-2-1 {
   background-image: url("../../../media/celso.jpg");
+  width: 100%;
   min-height: 250px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   cursor: pointer; }
 
 .product-box-img-2-2 {
   background-image: url("../../../media/exhibition.jpg");
+  width: 100%;
   min-height: 250px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   cursor: pointer; }
 
 .product-box-img-2-3 {
   background-image: url("../../../media/scientific.jpg");
+  width: 100%;
   min-height: 250px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   cursor: pointer; }
 
 .product-box-img-2-4 {
   background-image: url("../../../media/heart.jpg");
+  width: 100%;
   min-height: 250px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   cursor: pointer; }
 
 .product-box-img-2-5 {
   background-image: url("../../../media/mammoth.jpg");
+  width: 100%;
   min-height: 250px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   cursor: pointer; }
 
 .product-box-img-2-6 {
   background-image: url("../../../media/william-bout.jpg");
+  width: 100%;
   min-height: 250px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   cursor: pointer; }
 
 .product-box-img-2-7 {
   background-image: url("../../../media/scott-webb.jpg");
+  width: 100%;
   min-height: 250px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   cursor: pointer; }
 
 .product-box-img-2-8 {
   background-image: url("../../../media/skeleton.jpg");
+  width: 100%;
   min-height: 250px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   cursor: pointer; }
 
 .product-box-img-2-9 {
   background-image: url("../../../media/samuel-zeller.jpg");
+  width: 100%;
   min-height: 250px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   cursor: pointer; }
 
 .community-form-grid-container {
