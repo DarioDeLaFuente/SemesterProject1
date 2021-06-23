@@ -1,116 +1,170 @@
 .shop-box-2-grid-container {
-    grid-template-areas:
-      "shop-box-2-1 shop-box-2-2 shop-box-2-3"
-      "shop-box-2-4 shop-box-2-5 shop-box-2-6"
-      "shop-box-2-7 shop-box-2-8 shop-box-2-9";
-  }
-  
-  .shop-box-2-1 { grid-area: shop-box-2-1; }
-  
-  .shop-box-2-2 { grid-area: shop-box-2-2; }
-  
-  .shop-box-2-3 { grid-area: shop-box-2-3; }
-  
-  .shop-box-2-4 { grid-area: shop-box-2-4; }
-  
-  .shop-box-2-5 { grid-area: shop-box-2-5; }
-  
-  .shop-box-2-6 { grid-area: shop-box-2-6; }
-  
-  .shop-box-2-7 { grid-area: shop-box-2-7; }
-  
-  .shop-box-2-8 { grid-area: shop-box-2-8; }
-  
-  .shop-box-2-9 { grid-area: shop-box-2-9; }
-  
-  .lbl-soldout{
-    position: absolute;
-    left: 5px;
-    top: 5px;
-    z-index: 11;
-    right: 5px;
-    background: #ff708e;
-    width: 50px;
-    border-radius:100%;
-    padding:5px;
-    box-shadow: 0 15px 15px 0 rgba(0,0,0,0.2);
-  }
+  grid-template-areas:
+    "shop-box-2-1 shop-box-2-2 shop-box-2-3"
+    "shop-box-2-4 shop-box-2-5 shop-box-2-6"
+    "shop-box-2-7 shop-box-2-8 shop-box-2-9";
+}
 
-  .product-box-img-2-1 {
-    background-image: url("../../../media/celso.jpg");
-    min-height: 250px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    cursor: pointer;
-  }
+.shop-box-2-1 {
+  grid-area: shop-box-2-1;
+}
 
-  .product-box-img-2-2 {
-    background-image: url("../../../media/exhibition.jpg");
-    min-height: 250px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    cursor: pointer;
-  }
+.shop-box-2-2 {
+  grid-area: shop-box-2-2;
+}
 
-  .product-box-img-2-3 {
-    background-image: url("../../../media/scientific.jpg");
-    min-height: 250px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    cursor: pointer;
-  }
-  .product-box-img-2-4 {
-    background-image: url("../../../media/heart.jpg");
-    min-height: 250px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    cursor: pointer;
-  }
-  .product-box-img-2-5 {
-    background-image: url("../../../media/mammoth.jpg");
-    min-height: 250px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    cursor: pointer;
-  }
+.shop-box-2-3 {
+  grid-area: shop-box-2-3;
+}
 
-  .product-box-img-2-6 {
-    background-image: url("../../../media/william-bout.jpg");
-    min-height: 250px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    cursor: pointer;
-  }
+.shop-box-2-4 {
+  grid-area: shop-box-2-4;
+}
 
-  .product-box-img-2-7 {
-    background-image: url("../../../media/scott-webb.jpg");
-    min-height: 250px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    cursor: pointer;
-  }
+.shop-box-2-5 {
+  grid-area: shop-box-2-5;
+}
 
-  .product-box-img-2-8 {
-    background-image: url("../../../media/skeleton.jpg");
-    min-height: 250px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    cursor: pointer;
-  }
+.shop-box-2-6 {
+  grid-area: shop-box-2-6;
+}
 
-  .product-box-img-2-9 {
-    background-image: url("../../../media/samuel-zeller.jpg");
-    min-height: 250px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    cursor: pointer;
-  }
+.shop-box-2-7 {
+  grid-area: shop-box-2-7;
+}
+
+.shop-box-2-8 {
+  grid-area: shop-box-2-8;
+}
+
+.shop-box-2-9 {
+  grid-area: shop-box-2-9;
+}
+
+.lbl-soldout {
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  z-index: 11;
+  right: 5px;
+  background: #ff708e;
+  width: 50px;
+  border-radius: 100%;
+  padding: 5px;
+  box-shadow: 0 15px 15px 0 rgba(0, 0, 0, 0.2);
+}
+
+.product-box-img-2-1 {
+  background-image: url("../../../media/celso.jpg");
+  width: 100%;
+  min-height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  cursor: pointer;
+}
+
+.product-box-img-2-2 {
+  background-image: url("../../../media/exhibition.jpg");
+  width: 100%;
+  min-height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  cursor: pointer;
+}
+
+.product-box-img-2-3 {
+  background-image: url("../../../media/scientific.jpg");
+  width: 100%;
+  min-height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  cursor: pointer;
+}
+.product-box-img-2-4 {
+  background-image: url("../../../media/heart.jpg");
+  width: 100%;
+  min-height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  cursor: pointer;
+}
+.product-box-img-2-5 {
+  background-image: url("../../../media/mammoth.jpg");
+  width: 100%;
+  min-height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  cursor: pointer;
+}
+
+.product-box-img-2-6 {
+  background-image: url("../../../media/william-bout.jpg");
+  width: 100%;
+  min-height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  cursor: pointer;
+}
+
+.product-box-img-2-7 {
+  background-image: url("../../../media/scott-webb.jpg");
+  width: 100%;
+  min-height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  cursor: pointer;
+}
+
+.product-box-img-2-8 {
+  background-image: url("../../../media/skeleton.jpg");
+  width: 100%;
+  min-height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  cursor: pointer;
+}
+
+.product-box-img-2-9 {
+  background-image: url("../../../media/samuel-zeller.jpg");
+  width: 100%;
+  min-height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  cursor: pointer;
+}
