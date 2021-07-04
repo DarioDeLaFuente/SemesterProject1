@@ -419,7 +419,11 @@ h3 {
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover; }
+  -o-background-size: cover;
+  /* safari only */ }
+  @media not all and (min-resolution: 0.001dpcm) {
+    .baner-img {
+      background-attachment: scroll; } }
 
 .body-b-grid-container {
   grid-template-areas: "bady-box-b-1 body-box-b-2 body-box-b-3"; }
@@ -568,8 +572,12 @@ h3 {
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover; }
+  -o-background-size: cover;
+  /* safari only */ }
   @media only screen and (min-width: 1024px) {
+    .body-e-box-img {
+      background-attachment: scroll; } }
+  @media not all and (min-resolution: 0.001dpcm) {
     .body-e-box-img {
       background-attachment: scroll; } }
 
@@ -604,8 +612,12 @@ h3 {
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover; }
+  -o-background-size: cover;
+  /* safari only */ }
   @media only screen and (min-width: 1024px) {
+    .body-f-box-img {
+      background-attachment: scroll; } }
+  @media not all and (min-resolution: 0.001dpcm) {
     .body-f-box-img {
       background-attachment: scroll; } }
 
@@ -637,8 +649,12 @@ h3 {
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover; }
+  -o-background-size: cover;
+  /* safari only */ }
   @media only screen and (min-width: 1024px) {
+    .body-g-box-img {
+      background-attachment: scroll; } }
+  @media not all and (min-resolution: 0.001dpcm) {
     .body-g-box-img {
       background-attachment: scroll; } }
 
@@ -803,8 +819,12 @@ h3 {
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover; }
+  -o-background-size: cover;
+  /* safari only */ }
   @media only screen and (min-width: 1024px) {
+    .sub-page-body-g-box-img {
+      background-attachment: scroll; } }
+  @media not all and (min-resolution: 0.001dpcm) {
     .sub-page-body-g-box-img {
       background-attachment: scroll; } }
 
@@ -835,8 +855,12 @@ h3 {
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover; }
+  -o-background-size: cover;
+  /* safari only */ }
   @media only screen and (min-width: 1024px) {
+    .sub-page-body-d-box-img {
+      background-attachment: scroll; } }
+  @media not all and (min-resolution: 0.001dpcm) {
     .sub-page-body-d-box-img {
       background-attachment: scroll; } }
 
@@ -867,8 +891,12 @@ h3 {
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover; }
+  -o-background-size: cover;
+  /* safari only */ }
   @media only screen and (min-width: 1024px) {
+    .sub-page-body-c-box-img {
+      background-attachment: scroll; } }
+  @media not all and (min-resolution: 0.001dpcm) {
     .sub-page-body-c-box-img {
       background-attachment: scroll; } }
 
@@ -899,8 +927,12 @@ h3 {
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover; }
+  -o-background-size: cover;
+  /* safari only */ }
   @media only screen and (min-width: 1024px) {
+    .sub-page-body-a-box-img {
+      background-attachment: scroll; } }
+  @media not all and (min-resolution: 0.001dpcm) {
     .sub-page-body-a-box-img {
       background-attachment: scroll; } }
 
@@ -931,8 +963,12 @@ h3 {
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover; }
+  -o-background-size: cover;
+  /* safari only */ }
   @media only screen and (min-width: 1024px) {
+    .sub-page-body-b-box-img {
+      background-attachment: scroll; } }
+  @media not all and (min-resolution: 0.001dpcm) {
     .sub-page-body-b-box-img {
       background-attachment: scroll; } }
 
@@ -963,8 +999,12 @@ h3 {
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover; }
+  -o-background-size: cover;
+  /* safari only */ }
   @media only screen and (min-width: 1024px) {
+    .sub-page-body-e-box-img {
+      background-attachment: scroll; } }
+  @media not all and (min-resolution: 0.001dpcm) {
     .sub-page-body-e-box-img {
       background-attachment: scroll; } }
 
@@ -995,8 +1035,12 @@ h3 {
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover; }
+  -o-background-size: cover;
+  /* safari only */ }
   @media only screen and (min-width: 1024px) {
+    .sub-page-body-f-box-img {
+      background-attachment: scroll; } }
+  @media not all and (min-resolution: 0.001dpcm) {
     .sub-page-body-f-box-img {
       background-attachment: scroll; } }
 
@@ -1027,8 +1071,12 @@ h3 {
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover; }
+  -o-background-size: cover;
+  /* safari only */ }
   @media only screen and (min-width: 1024px) {
+    .sub-page-body-h-box-img {
+      background-attachment: scroll; } }
+  @media not all and (min-resolution: 0.001dpcm) {
     .sub-page-body-h-box-img {
       background-attachment: scroll; } }
 

@@ -38,4 +38,8 @@
   @media #{$screen__l} {
     background-attachment: scroll;
   }
+  /* safari only */
+  @media not all and (min-resolution: 0.001dpcm) {
+    background-attachment: scroll;
+  }
 }
