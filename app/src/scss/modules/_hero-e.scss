@@ -37,4 +37,8 @@
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  /* safari only */
+  @media not all and (min-resolution: 0.001dpcm) {
+    background-attachment: scroll;
+  }
 }

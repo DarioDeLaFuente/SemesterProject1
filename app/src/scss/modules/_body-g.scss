@@ -1,39 +1,41 @@
 .body-g-grid-container {
-    grid-template-areas: "body-g-box-1 body-g-box-2";
+  grid-template-areas: "body-g-box-1 body-g-box-2";
+}
+
+.body-g-box-1 {
+  grid-area: body-g-box-1;
+}
+
+.body-g-box-2 {
+  grid-area: body-g-box-2;
+  padding: 50px 30px;
+  text-align: justify;
+  p {
+    font-size: $font--m;
+    font-weight: 100;
   }
-  
-  .body-g-box-1 {
-    grid-area: body-g-box-1;
+  @media #{$screen__l} {
+    padding: 50px 80px;
   }
-  
-  .body-g-box-2 {
-    grid-area: body-g-box-2;
-    padding: 50px 30px;
-    text-align: justify;
-    p {
-      font-size: $font--m;
-      font-weight: 100;
-    }
-    @media #{$screen__l} {
-      padding: 50px 80px;
-    }
+}
+
+.body-g-box-img {
+  background-image: url("../../../media/people.jpg");
+  width: 100%;
+  min-height: 500px;
+  object-fit: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  @media #{$screen__l} {
+    background-attachment: scroll;
   }
-  
-  .body-g-box-img {
-    background-image: url("../../../media/people.jpg");
-    width: 100%;
-    min-height: 500px;
-    object-fit: cover;
-    background-attachment: fixed;
-    //background-attachment: scroll;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    @media #{$screen__l} {
-      background-attachment: scroll;
-    }
+  /* safari only */
+  @media not all and (min-resolution: 0.001dpcm) {
+    background-attachment: scroll;
   }
-  
+}
