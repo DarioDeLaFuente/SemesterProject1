@@ -87,11 +87,11 @@ idsAndUrls.forEach(function (idAndUrl) {
  */
 
 function openSideNav() {
-  document.getElementById("sideNav").classList.add("openSideNav");
+  document.getElementById("side-nav").classList.add("open-side-nav");
 }
 
 function closeSideNav() {
-  document.getElementById("sideNav").classList.remove("openSideNav");
+  document.getElementById("side-nav").classList.remove("open-side-nav");
 }
 
 /**

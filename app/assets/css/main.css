@@ -230,22 +230,22 @@ h3 {
   h3 {
     font-size: 19px; } }
 
-.txtSideNav {
+.txt-side-nav {
   color: #0b3d5e;
   font-size: 10px; }
 
-.mdSideNav.openSideNav {
+.md-side-nav.open-side-nav {
   width: 80%; }
 
-.mdSideNav.closeSideNav {
+.md-side-nav.close-side-nav {
   width: 0; }
 
-.openNav {
+.open-nav {
   font-size: 30px;
   cursor: pointer;
   color: #18a0fb; }
 
-.mdSideNav {
+.md-side-nav {
   justify-content: center;
   height: 100%;
   width: 0;
@@ -258,7 +258,7 @@ h3 {
   transition: width 0.5s;
   padding-top: 80px; }
 
-.mdSideNav a {
+.md-side-nav a {
   display: grid;
   justify-items: end;
   padding: 8px 8px 8px 32px;
@@ -268,10 +268,10 @@ h3 {
   transition: width 0.3s;
   margin: 10px; }
 
-.mdSideNav a:hover {
+.md-side-nav a:hover {
   color: #0b3d5e; }
 
-.mdSideNav .sideNavCloseButton {
+.md-side-nav .side-nav-close-button {
   position: absolute;
   top: 0;
   right: 25px;
@@ -280,7 +280,7 @@ h3 {
   color: #fff; }
 
 .nav,
-.mdSideNav {
+.md-side-nav {
   display: flex; }
 
 .nav {
@@ -291,7 +291,7 @@ h3 {
   width: 30px; }
 
 @media only screen and (min-width: 1024px) {
-  .mdSideNav.openSideNav {
+  .md-side-nav.open-side-nav {
     width: 50%; } }
 
 /* Style the header */
