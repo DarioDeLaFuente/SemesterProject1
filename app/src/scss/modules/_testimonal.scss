@@ -1,4 +1,4 @@
-.testimonial-body-d-grid-container {
+.testimonial-grid-container {
   padding: 50px 30px;
   margin-top: 10px;
   background-color: #f5f5f5;
@@ -6,12 +6,12 @@
     padding: 50px 80px;
   }
   grid-template-areas:
-    "testimonial-body-d testimonial-body-d testimonial-body-d testimonial-body-d testimonial-body-d"
-    "testimonial-body-d-box-1 
-     testimonial-body-d-box-2
-     testimonial-body-d-box-3
-     testimonial-body-d-box-4 
-     testimonial-body-d-box-5"; 
+    "testimonial testimonial testimonial testimonial testimonial"
+    "testimonial-box-1 
+     testimonial-box-2
+     testimonial-box-3
+     testimonial-box-4 
+     testimonial-box-5"; 
 
   p {
     font-size: 19px;
@@ -30,38 +30,38 @@
   }
 }
 
-.testimonial-body-d {
-  grid-area: testimonial-body-d;
+.testimonial {
+  grid-area: testimonial;
   text-align: center;
 }
-.testimonial-body-d-box-1 {
-  grid-area: testimonial-body-d-box-1;
+.testimonial-box-1 {
+  grid-area: testimonial-box-1;
 }
-.testimonial-body-d-box-2 {
-  grid-area: testimonial-body-d-box-2;
+.testimonial-box-2 {
+  grid-area: testimonial-box-2;
 }
-.testimonial-body-d-box-3 {
-  grid-area: testimonial-body-d-box-3;
+.testimonial-box-3 {
+  grid-area: testimonial-box-3;
 }
-.testimonial-body-d-box-4 {
-  grid-area: testimonial-body-d-box-4;
+.testimonial-box-4 {
+  grid-area: testimonial-box-4;
 }
-.testimonial-body-d-box-5 {
-  grid-area: testimonial-body-d-box-5;
+.testimonial-box-5 {
+  grid-area: testimonial-box-5;
 }
 
 
-.testimonial-body-d-box-1,
-.testimonial-body-d-box-2,
-.testimonial-body-d-box-3,
-.testimonial-body-d-box-4,
-.testimonial-body-d-box-5
+.testimonial-box-1,
+.testimonial-box-2,
+.testimonial-box-3,
+.testimonial-box-4,
+.testimonial-box-5
 {
     margin-top: 30px;
     @media #{$screen__l} {
       margin-top: 80px;
     }
-    .testimonial-body-d-button {
+    .testimonial-button {
         background-color: #18a0fb;
         border: none;
         border-radius: 5px;

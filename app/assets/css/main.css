@@ -50,88 +50,88 @@
  *
 */
 .hero-grid-container,
-.body-b-info-grid-container {
+.info-box-info-grid-container {
   display: grid; }
 
-.body-b-grid-container,
-.body-e-grid-container,
-.body-f-grid-container,
-.body-g-grid-container,
-.testimonial-body-d-grid-container,
-.body-signup-c-grid-container,
-.sub-page-body-g-grid-container,
-.sub-page-body-d-grid-container,
-.sub-page-body-c-grid-container,
-.sub-page-body-a-grid-container,
-.sub-page-body-b-grid-container,
-.sub-page-body-f-grid-container,
-.sub-page-body-e-grid-container,
-.sub-page-body-h-grid-container,
+.info-box-grid-container,
+.explore-for-kids-grid-container,
+.explore-for-teachers-grid-container,
+.explore-for-researchers-grid-container,
+.testimonial-grid-container,
+.signup-grid-container,
+.aeronautics-grid-container,
+.museum-grid-container,
+.loan-grid-container,
+.cosmology-grid-container,
+.evolution-grid-container,
+.ai-grid-container,
+.medicine-grid-container,
+.ecology-grid-container,
 .shop-box-grid-container,
 .shop-box-2-grid-container {
   display: block; }
   @media only screen and (min-width: 1024px) {
-    .body-b-grid-container,
-    .body-e-grid-container,
-    .body-f-grid-container,
-    .body-g-grid-container,
-    .testimonial-body-d-grid-container,
-    .body-signup-c-grid-container,
-    .sub-page-body-g-grid-container,
-    .sub-page-body-d-grid-container,
-    .sub-page-body-c-grid-container,
-    .sub-page-body-a-grid-container,
-    .sub-page-body-b-grid-container,
-    .sub-page-body-f-grid-container,
-    .sub-page-body-e-grid-container,
-    .sub-page-body-h-grid-container,
+    .info-box-grid-container,
+    .explore-for-kids-grid-container,
+    .explore-for-teachers-grid-container,
+    .explore-for-researchers-grid-container,
+    .testimonial-grid-container,
+    .signup-grid-container,
+    .aeronautics-grid-container,
+    .museum-grid-container,
+    .loan-grid-container,
+    .cosmology-grid-container,
+    .evolution-grid-container,
+    .ai-grid-container,
+    .medicine-grid-container,
+    .ecology-grid-container,
     .shop-box-grid-container,
     .shop-box-2-grid-container {
       display: grid; } }
 
 .hero-grid-container,
-.body-b-info-grid-container,
-.body-signup-c-grid-container {
+.info-box-info-grid-container,
+.signup-grid-container {
   gap: 0px 0px; }
 
-.body-b-grid-container,
-.body-e-grid-container,
-.body-f-grid-container {
+.info-box-grid-container,
+.explore-for-kids-grid-container,
+.explore-for-teachers-grid-container {
   padding: 10px;
   gap: 0 10px; }
 
-.body-g-grid-container {
+.explore-for-researchers-grid-container {
   padding-top: 10px;
   gap: 0 10px; }
 
 .footer-grid {
   gap: 5px 0px; }
 
-.sub-page-body-g-grid-container,
-.sub-page-body-d-grid-container,
-.sub-page-body-c-grid-container,
-.sub-page-body-a-grid-container,
-.sub-page-body-b-grid-container,
-.sub-page-body-e-grid-container,
-.sub-page-body-f-grid-container,
-.sub-page-body-h-grid-container {
+.aeronautics-grid-container,
+.museum-grid-container,
+.loan-grid-container,
+.cosmology-grid-container,
+.evolution-grid-container,
+.medicine-grid-container,
+.ai-grid-container,
+.ecology-grid-container {
   padding: 10px;
   gap: 0px 10px; }
 
-.body-b-grid-container,
-.body-b-grid-container,
-.body-e-grid-container,
-.body-f-grid-container,
-.body-g-grid-container,
-.body-signup-c-grid-container,
-.sub-page-body-g-grid-container,
-.sub-page-body-d-grid-container,
-.sub-page-body-c-grid-container,
-.sub-page-body-a-grid-container,
-.sub-page-body-b-grid-container,
-.sub-page-body-e-grid-container,
-.sub-page-body-f-grid-container,
-.sub-page-body-h-grid-container {
+.info-box-grid-container,
+.info-box-grid-container,
+.explore-for-kids-grid-container,
+.explore-for-teachers-grid-container,
+.explore-for-researchers-grid-container,
+.signup-grid-container,
+.aeronautics-grid-container,
+.museum-grid-container,
+.loan-grid-container,
+.cosmology-grid-container,
+.evolution-grid-container,
+.smedicine-grid-container,
+.ai-grid-container,
+.ecology-grid-container {
   grid-template-rows: 1fr; }
 
 .shop-box-grid-container, .shop-box-2-grid-container {
@@ -148,32 +148,32 @@
 .footer-container-grid {
   grid-template-columns: 1fr 1fr 2fr 1fr 1fr; }
 
-.body-b-grid-container {
+.info-box-grid-container {
   grid-template-columns: 1fr 1fr 1fr; }
 
-.body-b-info-grid-container {
+.info-box-info-grid-container {
   grid-template-columns: 5fr;
   grid-template-rows: 1fr 3.1fr; }
 
-.body-e-grid-container,
-.body-f-grid-container,
-.body-g-grid-container,
-.sub-page-body-g-grid-container,
-.sub-page-body-d-grid-container,
-.sub-page-body-c-grid-container,
-.sub-page-body-a-grid-container,
-.sub-page-body-b-grid-container,
-.sub-page-body-e-grid-container,
-.sub-page-body-f-grid-container,
-.sub-page-body-h-grid-container {
+.explore-for-kids-grid-container,
+.explore-for-teachers-grid-container,
+.explore-for-researchers-grid-container,
+.aeronautics-grid-container,
+.museum-grid-container,
+.loan-grid-container,
+.cosmology-grid-container,
+.evolution-grid-container,
+.medicine-grid-container,
+.ai-grid-container,
+.ecology-grid-container {
   grid-template-columns: 1fr 1fr; }
 
-.testimonial-body-d-grid-container {
+.testimonial-grid-container {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 15px 15px; }
 
-.body-signup-c-grid-container {
+.signup-grid-container {
   grid-template-columns: 1.5fr 1fr; }
 
 /**
@@ -390,14 +390,14 @@ h3 {
 
 .hero-grid-container {
   height: 555px;
-  grid-template-areas: "hero-box-e-1" "hero-box-e-2"; }
+  grid-template-areas: "hero-box-1" "hero-box-2"; }
 
-.hero-box-e-1 {
-  grid-area: hero-box-e-1; }
+.hero-box-1 {
+  grid-area: hero-box-1; }
 
-.hero-box-e-2 {
-  grid-area: hero-box-e-2; }
-  .hero-box-e-2 h3 {
+.hero-box-2 {
+  grid-area: hero-box-2; }
+  .hero-box-2 h3 {
     background-color: #18a0fbc2;
     color: #fff;
     display: flex;
@@ -405,7 +405,7 @@ h3 {
     margin-top: -105px;
     font-size: 35px; }
     @media only screen and (min-width: 1024px) {
-      .hero-box-e-2 h3 {
+      .hero-box-2 h3 {
         font-size: 70px; } }
 
 .baner-img {
@@ -425,7 +425,7 @@ h3 {
     .baner-img {
       background-attachment: scroll; } }
 
-.body-b-grid-container {
+.info-box-grid-container {
   grid-template-areas: "bady-box-b-1 body-box-b-2 body-box-b-3"; }
 
 .bady-box-b-1,
@@ -443,7 +443,7 @@ h3 {
   grid-area: body-box-b-3;
   box-shadow: 0 0 2em -19px; }
 
-.body-b-info-grid-container {
+.info-box-info-grid-container {
   grid-template-areas: "body-box1-tital" "body-box2-info-text"; }
 
 .body-box1-tital {
@@ -544,24 +544,24 @@ h3 {
   height: 100px;
   background-color: #0b3d5e; }
 
-.body-e-grid-container {
-  grid-template-areas: "body-e-box-1 body-e-box-2"; }
+.explore-for-kids-grid-container {
+  grid-template-areas: "explore-for-kids-box-1 explore-for-kids-box-2"; }
 
-.body-e-box-1 {
-  grid-area: body-e-box-1; }
+.explore-for-kids-box-1 {
+  grid-area: explore-for-kids-box-1; }
 
-.body-e-box-2 {
-  grid-area: body-e-box-2;
+.explore-for-kids-box-2 {
+  grid-area: explore-for-kids-box-2;
   padding: 50px 30px;
   text-align: justify; }
-  .body-e-box-2 p {
+  .explore-for-kids-box-2 p {
     font-size: 19px;
     font-weight: 100; }
   @media only screen and (min-width: 1024px) {
-    .body-e-box-2 {
+    .explore-for-kids-box-2 {
       padding: 50px 80px; } }
 
-.body-e-box-img {
+.explore-for-kids-box-img {
   background-image: url("../../../media/samuel-zeller.jpg");
   width: 100%;
   min-height: 500px;
@@ -575,33 +575,33 @@ h3 {
   -o-background-size: cover;
   /* safari only */ }
   @media only screen and (min-width: 1024px) {
-    .body-e-box-img {
+    .explore-for-kids-box-img {
       background-attachment: scroll; } }
   @media not all and (min-resolution: 0.001dpcm) {
-    .body-e-box-img {
+    .explore-for-kids-box-img {
       background-attachment: scroll; } }
 
-.body-f-grid-container {
-  grid-template-areas: "body-f-box-1 body-f-box-2"; }
+.explore-for-teachers-grid-container {
+  grid-template-areas: "explore-for-teachers-box-1 explore-for-teachers-box-2"; }
 
-.body-f-grid-container {
+.explore-for-teachers-grid-container {
   background-color: #f5f5f5; }
 
-.body-f-box-2 {
-  grid-area: body-f-box-2; }
+.explore-for-teachers-box-2 {
+  grid-area: explore-for-teachers-box-2; }
 
-.body-f-box-1 {
-  grid-area: body-f-box-1;
+.explore-for-teachers-box-1 {
+  grid-area: explore-for-teachers-box-1;
   padding: 50px 30px;
   text-align: justify; }
-  .body-f-box-1 p {
+  .explore-for-teachers-box-1 p {
     font-size: 19px;
     font-weight: 100; }
   @media only screen and (min-width: 1024px) {
-    .body-f-box-1 {
+    .explore-for-teachers-box-1 {
       padding: 50px 80px; } }
 
-.body-f-box-img {
+.explore-for-teachers-box-img {
   background-image: url("../../../media/skeleton.jpg");
   width: 100%;
   min-height: 500px;
@@ -615,30 +615,30 @@ h3 {
   -o-background-size: cover;
   /* safari only */ }
   @media only screen and (min-width: 1024px) {
-    .body-f-box-img {
+    .explore-for-teachers-box-img {
       background-attachment: scroll; } }
   @media not all and (min-resolution: 0.001dpcm) {
-    .body-f-box-img {
+    .explore-for-teachers-box-img {
       background-attachment: scroll; } }
 
-.body-g-grid-container {
-  grid-template-areas: "body-g-box-1 body-g-box-2"; }
+.explore-for-researchers-grid-container {
+  grid-template-areas: "explore-for-researchers-box-1 explore-for-researchers-box-2"; }
 
-.body-g-box-1 {
-  grid-area: body-g-box-1; }
+.explore-for-researchers-box-1 {
+  grid-area: explore-for-researchers-box-1; }
 
-.body-g-box-2 {
-  grid-area: body-g-box-2;
+.explore-for-researchers-box-2 {
+  grid-area: explore-for-researchers-box-2;
   padding: 50px 30px;
   text-align: justify; }
-  .body-g-box-2 p {
+  .explore-for-researchers-box-2 p {
     font-size: 19px;
     font-weight: 100; }
   @media only screen and (min-width: 1024px) {
-    .body-g-box-2 {
+    .explore-for-researchers-box-2 {
       padding: 50px 80px; } }
 
-.body-g-box-img {
+.explore-for-researchers-box-img {
   background-image: url("../../../media/people.jpg");
   width: 100%;
   min-height: 500px;
@@ -652,69 +652,69 @@ h3 {
   -o-background-size: cover;
   /* safari only */ }
   @media only screen and (min-width: 1024px) {
-    .body-g-box-img {
+    .explore-for-researchers-box-img {
       background-attachment: scroll; } }
   @media not all and (min-resolution: 0.001dpcm) {
-    .body-g-box-img {
+    .explore-for-researchers-box-img {
       background-attachment: scroll; } }
 
-.testimonial-body-d-grid-container {
+.testimonial-grid-container {
   padding: 50px 30px;
   margin-top: 10px;
   background-color: #f5f5f5;
-  grid-template-areas: "testimonial-body-d testimonial-body-d testimonial-body-d testimonial-body-d testimonial-body-d" "testimonial-body-d-box-1  testimonial-body-d-box-2 testimonial-body-d-box-3 testimonial-body-d-box-4  testimonial-body-d-box-5"; }
+  grid-template-areas: "testimonial testimonial testimonial testimonial testimonial" "testimonial-box-1  testimonial-box-2 testimonial-box-3 testimonial-box-4  testimonial-box-5"; }
   @media only screen and (min-width: 1024px) {
-    .testimonial-body-d-grid-container {
+    .testimonial-grid-container {
       padding: 50px 80px; } }
-  .testimonial-body-d-grid-container p {
+  .testimonial-grid-container p {
     font-size: 19px;
     font-weight: 100; }
-  .testimonial-body-d-grid-container h1 {
+  .testimonial-grid-container h1 {
     font-size: 25px;
     padding-bottom: 15px; }
   @media only screen and (min-width: 1024px) {
-    .testimonial-body-d-grid-container h1 {
+    .testimonial-grid-container h1 {
       font-size: 20px;
       padding-bottom: 35px;
       padding-top: 20px; } }
 
-.testimonial-body-d {
-  grid-area: testimonial-body-d;
+.testimonial {
+  grid-area: testimonial;
   text-align: center; }
 
-.testimonial-body-d-box-1 {
-  grid-area: testimonial-body-d-box-1; }
+.testimonial-box-1 {
+  grid-area: testimonial-box-1; }
 
-.testimonial-body-d-box-2 {
-  grid-area: testimonial-body-d-box-2; }
+.testimonial-box-2 {
+  grid-area: testimonial-box-2; }
 
-.testimonial-body-d-box-3 {
-  grid-area: testimonial-body-d-box-3; }
+.testimonial-box-3 {
+  grid-area: testimonial-box-3; }
 
-.testimonial-body-d-box-4 {
-  grid-area: testimonial-body-d-box-4; }
+.testimonial-box-4 {
+  grid-area: testimonial-box-4; }
 
-.testimonial-body-d-box-5 {
-  grid-area: testimonial-body-d-box-5; }
+.testimonial-box-5 {
+  grid-area: testimonial-box-5; }
 
-.testimonial-body-d-box-1,
-.testimonial-body-d-box-2,
-.testimonial-body-d-box-3,
-.testimonial-body-d-box-4,
-.testimonial-body-d-box-5 {
+.testimonial-box-1,
+.testimonial-box-2,
+.testimonial-box-3,
+.testimonial-box-4,
+.testimonial-box-5 {
   margin-top: 30px; }
   @media only screen and (min-width: 1024px) {
-    .testimonial-body-d-box-1,
-    .testimonial-body-d-box-2,
-    .testimonial-body-d-box-3,
-    .testimonial-body-d-box-4,
-    .testimonial-body-d-box-5 {
+    .testimonial-box-1,
+    .testimonial-box-2,
+    .testimonial-box-3,
+    .testimonial-box-4,
+    .testimonial-box-5 {
       margin-top: 80px; } }
-  .testimonial-body-d-box-1 .testimonial-body-d-button,
-  .testimonial-body-d-box-2 .testimonial-body-d-button,
-  .testimonial-body-d-box-3 .testimonial-body-d-button,
-  .testimonial-body-d-box-4 .testimonial-body-d-button,
-  .testimonial-body-d-box-5 .testimonial-body-d-button {
+  .testimonial-box-1 .testimonial-button,
+  .testimonial-box-2 .testimonial-button,
+  .testimonial-box-3 .testimonial-button,
+  .testimonial-box-4 .testimonial-button,
+  .testimonial-box-5 .testimonial-button {
     background-color: #18a0fb;
     border: none;
     border-radius: 5px;
@@ -726,34 +726,34 @@ h3 {
     box-shadow: 0px 20px 54px 5px #5098c959;
     cursor: pointer;
     width: 100%; }
-  .testimonial-body-d-box-1 :hover,
-  .testimonial-body-d-box-2 :hover,
-  .testimonial-body-d-box-3 :hover,
-  .testimonial-body-d-box-4 :hover,
-  .testimonial-body-d-box-5 :hover {
+  .testimonial-box-1 :hover,
+  .testimonial-box-2 :hover,
+  .testimonial-box-3 :hover,
+  .testimonial-box-4 :hover,
+  .testimonial-box-5 :hover {
     background-color: #0b3d5e;
     transition: 1s;
     position: relative;
     box-shadow: 0px 20px 54px 5px #686868; }
 
-.body-signup-c-grid-container {
-  grid-template-areas: "body-signup-c-box-1 body-signup-c-box-2"; }
+.signup-grid-container {
+  grid-template-areas: "signup-box-1 signup-box-2"; }
 
-.body-signup-c-box-1 {
-  grid-area: body-signup-c-box-1; }
+.signup-box-1 {
+  grid-area: signup-box-1; }
 
-.body-signup-c-box-2 {
-  grid-area: body-signup-c-box-2; }
+.signup-box-2 {
+  grid-area: signup-box-2; }
   @media only screen and (min-width: 1024px) {
-    .body-signup-c-box-2 a {
+    .signup-box-2 a {
       margin: 10px; } }
 
-.body-signup-c-box-1,
-.body-signup-c-box-2 {
+.signup-box-1,
+.signup-box-2 {
   padding: 20px 30px; }
   @media only screen and (min-width: 1024px) {
-    .body-signup-c-box-1,
-    .body-signup-c-box-2 {
+    .signup-box-1,
+    .signup-box-2 {
       padding: 50px 80px; } }
 
 .test-bottum {
@@ -780,35 +780,35 @@ h3 {
   .test-bottum {
     margin-top: 75px; } }
 
-.body-signup-c-box-1 h2 {
+.signup-box-1 h2 {
   font-size: 19px; }
 
-.body-signup-c-box-1 p {
+.signup-box-1 p {
   font-size: 19px;
   font-weight: 100; }
 
 @media only screen and (min-width: 1024px) {
-  .body-signup-c-box-1 {
+  .signup-box-1 {
     font-size: 19px;
     font-weight: 100; } }
 
-.sub-page-body-g-grid-container {
-  grid-template-areas: "sub-page-body-g-box-1 sub-page-body-g-box-2"; }
+.aeronautics-grid-container {
+  grid-template-areas: "aeronautics-box-1 aeronautics-box-2"; }
 
-.sub-page-body-g-box-1 {
-  grid-area: sub-page-body-g-box-1; }
+.aeronautics-box-1 {
+  grid-area: aeronautics-box-1; }
 
-.sub-page-body-g-box-2 {
-  grid-area: sub-page-body-g-box-2;
+.aeronautics-box-2 {
+  grid-area: aeronautics-box-2;
   padding: 20px 30px; }
   @media only screen and (min-width: 1024px) {
-    .sub-page-body-g-box-2 {
+    .aeronautics-box-2 {
       padding: 50px 80px; } }
-  .sub-page-body-g-box-2 p {
+  .aeronautics-box-2 p {
     font-size: 19px;
     font-weight: 100; }
 
-.sub-page-body-g-box-img {
+.aeronautics-box-img {
   background-image: url("../../../media/luke-ellis-craven.jpg");
   width: 100%;
   min-height: 500px;
@@ -822,29 +822,29 @@ h3 {
   -o-background-size: cover;
   /* safari only */ }
   @media only screen and (min-width: 1024px) {
-    .sub-page-body-g-box-img {
+    .aeronautics-box-img {
       background-attachment: scroll; } }
   @media not all and (min-resolution: 0.001dpcm) {
-    .sub-page-body-g-box-img {
+    .aeronautics-box-img {
       background-attachment: scroll; } }
 
-.sub-page-body-d-grid-container {
-  grid-template-areas: "sub-page-body-d-box-1 sub-page-body-d-box-2"; }
+.museum-grid-container {
+  grid-template-areas: "museum-box-1 museum-box-2"; }
 
-.sub-page-body-d-box-1 {
-  grid-area: sub-page-body-d-box-1; }
+.museum-box-1 {
+  grid-area: museum-box-1; }
 
-.sub-page-body-d-box-2 {
-  grid-area: sub-page-body-d-box-2;
+.museum-box-2 {
+  grid-area: museum-box-2;
   padding: 20px 30px; }
   @media only screen and (min-width: 1024px) {
-    .sub-page-body-d-box-2 {
+    .museum-box-2 {
       padding: 50px 80px; } }
-  .sub-page-body-d-box-2 p {
+  .museum-box-2 p {
     font-size: 19px;
     font-weight: 100; }
 
-.sub-page-body-d-box-img {
+.museum-box-img {
   background-image: url("../../../media/roberto-nickson.jpg");
   width: 100%;
   min-height: 500px;
@@ -858,29 +858,29 @@ h3 {
   -o-background-size: cover;
   /* safari only */ }
   @media only screen and (min-width: 1024px) {
-    .sub-page-body-d-box-img {
+    .museum-box-img {
       background-attachment: scroll; } }
   @media not all and (min-resolution: 0.001dpcm) {
-    .sub-page-body-d-box-img {
+    .museum-box-img {
       background-attachment: scroll; } }
 
-.sub-page-body-c-grid-container {
-  grid-template-areas: "sub-page-body-c-box-1 sub-page-body-c-box-2"; }
+.loan-grid-container {
+  grid-template-areas: "loan-box-1 loan-box-2"; }
 
-.sub-page-body-c-box-1 {
-  grid-area: sub-page-body-c-box-1; }
+.loan-box-1 {
+  grid-area: loan-box-1; }
 
-.sub-page-body-c-box-2 {
-  grid-area: sub-page-body-c-box-2;
+.loan-box-2 {
+  grid-area: loan-box-2;
   padding: 20px 30px; }
   @media only screen and (min-width: 1024px) {
-    .sub-page-body-c-box-2 {
+    .loan-box-2 {
       padding: 50px 80px; } }
-  .sub-page-body-c-box-2 p {
+  .loan-box-2 p {
     font-size: 19px;
     font-weight: 100; }
 
-.sub-page-body-c-box-img {
+.loan-box-img {
   background-image: url("../../../media/scientific.jpg");
   width: 100%;
   min-height: 500px;
@@ -894,29 +894,29 @@ h3 {
   -o-background-size: cover;
   /* safari only */ }
   @media only screen and (min-width: 1024px) {
-    .sub-page-body-c-box-img {
+    .loan-box-img {
       background-attachment: scroll; } }
   @media not all and (min-resolution: 0.001dpcm) {
-    .sub-page-body-c-box-img {
+    .loan-box-img {
       background-attachment: scroll; } }
 
-.sub-page-body-a-grid-container {
-  grid-template-areas: "sub-page-body-a-box-1 sub-page-body-a-box-2"; }
+.cosmology-grid-container {
+  grid-template-areas: "cosmology-box-1 cosmology-box-2"; }
 
-.sub-page-body-a-box-1 {
-  grid-area: sub-page-body-a-box-1; }
+.cosmology-box-1 {
+  grid-area: cosmology-box-1; }
 
-.sub-page-body-a-box-2 {
-  grid-area: sub-page-body-a-box-2;
+.cosmology-box-2 {
+  grid-area: cosmology-box-2;
   padding: 20px 30px; }
   @media only screen and (min-width: 1024px) {
-    .sub-page-body-a-box-2 {
+    .cosmology-box-2 {
       padding: 50px 80px; } }
-  .sub-page-body-a-box-2 p {
+  .cosmology-box-2 p {
     font-size: 19px;
     font-weight: 100; }
 
-.sub-page-body-a-box-img {
+.cosmology-box-img {
   background-image: url("../../../media/william-bout.jpg");
   width: 100%;
   min-height: 500px;
@@ -930,29 +930,29 @@ h3 {
   -o-background-size: cover;
   /* safari only */ }
   @media only screen and (min-width: 1024px) {
-    .sub-page-body-a-box-img {
+    .cosmology-box-img {
       background-attachment: scroll; } }
   @media not all and (min-resolution: 0.001dpcm) {
-    .sub-page-body-a-box-img {
+    .cosmology-box-img {
       background-attachment: scroll; } }
 
-.sub-page-body-b-grid-container {
-  grid-template-areas: "sub-page-body-b-box-1 sub-page-body-b-box-2"; }
+.evolution-grid-container {
+  grid-template-areas: "evolution-box-1 evolution-box-2"; }
 
-.sub-page-body-b-box-1 {
-  grid-area: sub-page-body-b-box-1; }
+.evolution-box-1 {
+  grid-area: evolution-box-1; }
 
-.sub-page-body-b-box-2 {
-  grid-area: sub-page-body-b-box-2;
+.evolution-box-2 {
+  grid-area: evolution-box-2;
   padding: 20px 30px; }
   @media only screen and (min-width: 1024px) {
-    .sub-page-body-b-box-2 {
+    .evolution-box-2 {
       padding: 50px 80px; } }
-  .sub-page-body-b-box-2 p {
+  .evolution-box-2 p {
     font-size: 19px;
     font-weight: 100; }
 
-.sub-page-body-b-box-img {
+.evolution-box-img {
   background-image: url("../../../media/skeleton.jpg");
   width: 100%;
   min-height: 500px;
@@ -966,29 +966,29 @@ h3 {
   -o-background-size: cover;
   /* safari only */ }
   @media only screen and (min-width: 1024px) {
-    .sub-page-body-b-box-img {
+    .evolution-box-img {
       background-attachment: scroll; } }
   @media not all and (min-resolution: 0.001dpcm) {
-    .sub-page-body-b-box-img {
+    .evolution-box-img {
       background-attachment: scroll; } }
 
-.sub-page-body-e-grid-container {
-  grid-template-areas: "sub-page-body-e-box-1 sub-page-body-e-box-2"; }
+.medicine-grid-container {
+  grid-template-areas: "medicine-box-1 medicine-box-2"; }
 
-.sub-page-body-e-box-1 {
-  grid-area: sub-page-body-e-box-1; }
+.medicine-box-1 {
+  grid-area: medicine-box-1; }
 
-.sub-page-body-e-box-2 {
-  grid-area: sub-page-body-e-box-2;
+.medicine-box-2 {
+  grid-area: medicine-box-2;
   padding: 20px 30px; }
   @media only screen and (min-width: 1024px) {
-    .sub-page-body-e-box-2 {
+    .medicine-box-2 {
       padding: 50px 80px; } }
-  .sub-page-body-e-box-2 p {
+  .medicine-box-2 p {
     font-size: 19px;
     font-weight: 100; }
 
-.sub-page-body-e-box-img {
+.medicine-box-img {
   background-image: url("../../../media/people.jpg");
   width: 100%;
   min-height: 500px;
@@ -1002,29 +1002,29 @@ h3 {
   -o-background-size: cover;
   /* safari only */ }
   @media only screen and (min-width: 1024px) {
-    .sub-page-body-e-box-img {
+    .medicine-box-img {
       background-attachment: scroll; } }
   @media not all and (min-resolution: 0.001dpcm) {
-    .sub-page-body-e-box-img {
+    .medicine-box-img {
       background-attachment: scroll; } }
 
-.sub-page-body-f-grid-container {
-  grid-template-areas: "sub-page-body-f-box-1 sub-page-body-f-box-2"; }
+.ai-grid-container {
+  grid-template-areas: "ai-box-1 ai-box-2"; }
 
-.sub-page-body-f-box-1 {
-  grid-area: sub-page-body-f-box-1; }
+.ai-box-1 {
+  grid-area: ai-box-1; }
 
-.sub-page-body-f-box-2 {
-  grid-area: sub-page-body-f-box-2;
+.ai-box-2 {
+  grid-area: ai-box-2;
   padding: 20px 30px; }
   @media only screen and (min-width: 1024px) {
-    .sub-page-body-f-box-2 {
+    .ai-box-2 {
       padding: 50px 80px; } }
-  .sub-page-body-f-box-2 p {
+  .ai-box-2 p {
     font-size: 19px;
     font-weight: 100; }
 
-.sub-page-body-f-box-img {
+.ai-box-img {
   background-image: url("../../../media/samuel-zeller.jpg");
   width: 100%;
   min-height: 500px;
@@ -1038,29 +1038,29 @@ h3 {
   -o-background-size: cover;
   /* safari only */ }
   @media only screen and (min-width: 1024px) {
-    .sub-page-body-f-box-img {
+    .ai-box-img {
       background-attachment: scroll; } }
   @media not all and (min-resolution: 0.001dpcm) {
-    .sub-page-body-f-box-img {
+    .ai-box-img {
       background-attachment: scroll; } }
 
-.sub-page-body-h-grid-container {
-  grid-template-areas: "sub-page-body-h-box-1 sub-page-body-h-box-2"; }
+.ecology-grid-container {
+  grid-template-areas: "ecology-box-1 ecology-box-2"; }
 
-.sub-page-body-h-box-1 {
-  grid-area: sub-page-body-h-box-1; }
+.ecology-box-1 {
+  grid-area: ecology-box-1; }
 
-.sub-page-body-h-box-2 {
-  grid-area: sub-page-body-h-box-2;
+.ecology-box-2 {
+  grid-area: ecology-box-2;
   padding: 20px 30px; }
   @media only screen and (min-width: 1024px) {
-    .sub-page-body-h-box-2 {
+    .ecology-box-2 {
       padding: 50px 80px; } }
-  .sub-page-body-h-box-2 p {
+  .ecology-box-2 p {
     font-size: 19px;
     font-weight: 100; }
 
-.sub-page-body-h-box-img {
+.ecology-box-img {
   background-image: url("../../../media/scientific.jpg");
   width: 100%;
   min-height: 500px;
@@ -1074,10 +1074,10 @@ h3 {
   -o-background-size: cover;
   /* safari only */ }
   @media only screen and (min-width: 1024px) {
-    .sub-page-body-h-box-img {
+    .ecology-box-img {
       background-attachment: scroll; } }
   @media not all and (min-resolution: 0.001dpcm) {
-    .sub-page-body-h-box-img {
+    .ecology-box-img {
       background-attachment: scroll; } }
 
 .sub-page-hero-x-grid-container {

@@ -1,13 +1,13 @@
-.sub-page-body-c-grid-container {
-  grid-template-areas: "sub-page-body-c-box-1 sub-page-body-c-box-2";
+.ecology-grid-container {
+  grid-template-areas: "ecology-box-1 ecology-box-2";
 }
 
-.sub-page-body-c-box-1 {
-  grid-area: sub-page-body-c-box-1;
+.ecology-box-1 {
+  grid-area: ecology-box-1;
 }
 
-.sub-page-body-c-box-2 {
-  grid-area: sub-page-body-c-box-2;
+.ecology-box-2 {
+  grid-area: ecology-box-2;
   padding: 20px 30px;
   @media #{$screen__l} {
     padding: 50px 80px;
@@ -18,7 +18,7 @@
   }
 }
 
-.sub-page-body-c-box-img {
+.ecology-box-img {
   background-image: url("../../../media/scientific.jpg");
   width: 100%;
   min-height: 500px;
@@ -34,7 +34,7 @@
     background-attachment: scroll;
   }
   /* safari only */
-  @media not all and (min-resolution: 0.001dpcm) {
+  @media not all and (min-resolution:.001dpcm) { 
     background-attachment: scroll;
-  }
+}
 }

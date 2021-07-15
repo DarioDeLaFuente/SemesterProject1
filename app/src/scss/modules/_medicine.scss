@@ -1,13 +1,13 @@
-.sub-page-body-d-grid-container {
-  grid-template-areas: "sub-page-body-d-box-1 sub-page-body-d-box-2";
+.medicine-grid-container {
+  grid-template-areas: "medicine-box-1 medicine-box-2";
 }
 
-.sub-page-body-d-box-1 {
-  grid-area: sub-page-body-d-box-1;
+.medicine-box-1 {
+  grid-area: medicine-box-1;
 }
 
-.sub-page-body-d-box-2 {
-  grid-area: sub-page-body-d-box-2;
+.medicine-box-2 {
+  grid-area: medicine-box-2;
   padding: 20px 30px;
   @media #{$screen__l} {
     padding: 50px 80px;
@@ -18,8 +18,8 @@
   }
 }
 
-.sub-page-body-d-box-img {
-  background-image: url("../../../media/roberto-nickson.jpg");
+.medicine-box-img {
+  background-image: url("../../../media/people.jpg");
   width: 100%;
   min-height: 500px;
   object-fit: cover;

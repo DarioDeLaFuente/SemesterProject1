@@ -1,13 +1,13 @@
-.sub-page-body-f-grid-container {
-  grid-template-areas: "sub-page-body-f-box-1 sub-page-body-f-box-2";
+.loan-grid-container {
+  grid-template-areas: "loan-box-1 loan-box-2";
 }
 
-.sub-page-body-f-box-1 {
-  grid-area: sub-page-body-f-box-1;
+.loan-box-1 {
+  grid-area: loan-box-1;
 }
 
-.sub-page-body-f-box-2 {
-  grid-area: sub-page-body-f-box-2;
+.loan-box-2 {
+  grid-area: loan-box-2;
   padding: 20px 30px;
   @media #{$screen__l} {
     padding: 50px 80px;
@@ -18,8 +18,8 @@
   }
 }
 
-.sub-page-body-f-box-img {
-  background-image: url("../../../media/samuel-zeller.jpg");
+.loan-box-img {
+  background-image: url("../../../media/scientific.jpg");
   width: 100%;
   min-height: 500px;
   object-fit: cover;
