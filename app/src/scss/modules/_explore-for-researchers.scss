@@ -1,25 +1,26 @@
-.sub-page-body-a-grid-container {
-  grid-template-areas: "sub-page-body-a-box-1 sub-page-body-a-box-2";
+.explore-for-researchers-grid-container {
+  grid-template-areas: "explore-for-researchers-box-1 explore-for-researchers-box-2";
 }
 
-.sub-page-body-a-box-1 {
-  grid-area: sub-page-body-a-box-1;
+.explore-for-researchers-box-1 {
+  grid-area: explore-for-researchers-box-1;
 }
 
-.sub-page-body-a-box-2 {
-  grid-area: sub-page-body-a-box-2;
-  padding: 20px 30px;
-  @media #{$screen__l} {
-    padding: 50px 80px;
-  }
+.explore-for-researchers-box-2 {
+  grid-area: explore-for-researchers-box-2;
+  padding: 50px 30px;
+  text-align: justify;
   p {
     font-size: $font--m;
     font-weight: 100;
   }
+  @media #{$screen__l} {
+    padding: 50px 80px;
+  }
 }
 
-.sub-page-body-a-box-img {
-  background-image: url("../../../media/william-bout.jpg");
+.explore-for-researchers-box-img {
+  background-image: url("../../../media/people.jpg");
   width: 100%;
   min-height: 500px;
   object-fit: cover;

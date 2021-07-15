@@ -1,16 +1,16 @@
 .hero-grid-container {
   height: 555px;
   grid-template-areas:
-    "hero-box-e-1"
-    "hero-box-e-2";
+    "hero-box-1"
+    "hero-box-2";
 }
 
-.hero-box-e-1 {
-  grid-area: hero-box-e-1;
+.hero-box-1 {
+  grid-area: hero-box-1;
 }
 
-.hero-box-e-2 {
-  grid-area: hero-box-e-2;
+.hero-box-2 {
+  grid-area: hero-box-2;
 
   h3 {
     background-color: #18a0fbc2;

@@ -70,24 +70,24 @@ $screen__xl: "only screen and (min-width: 1200px)";
 
 
 .hero-grid-container,
-.body-b-info-grid-container {
+.info-box-info-grid-container {
   display: grid;
 }
 
-.body-b-grid-container,
-.body-e-grid-container,
-.body-f-grid-container,
-.body-g-grid-container,
-.testimonial-body-d-grid-container,
-.body-signup-c-grid-container,
-.sub-page-body-g-grid-container,
-.sub-page-body-d-grid-container,
-.sub-page-body-c-grid-container,
-.sub-page-body-a-grid-container,
-.sub-page-body-b-grid-container,
-.sub-page-body-f-grid-container,
-.sub-page-body-e-grid-container,
-.sub-page-body-h-grid-container,
+.info-box-grid-container,
+.explore-for-kids-grid-container,
+.explore-for-teachers-grid-container,
+.explore-for-researchers-grid-container,
+.testimonial-grid-container,
+.signup-grid-container,
+.aeronautics-grid-container,
+.museum-grid-container,
+.loan-grid-container,
+.cosmology-grid-container,
+.evolution-grid-container,
+.ai-grid-container,
+.medicine-grid-container,
+.ecology-grid-container,
 .shop-box-grid-container,
 .shop-box-2-grid-container  {
   display: block;
@@ -97,18 +97,18 @@ $screen__xl: "only screen and (min-width: 1200px)";
 }
 
 .hero-grid-container,
-.body-b-info-grid-container,
-.body-signup-c-grid-container {
+.info-box-info-grid-container,
+.signup-grid-container {
   gap: 0px 0px;
 }
 
-.body-b-grid-container,
-.body-e-grid-container,
-.body-f-grid-container {
+.info-box-grid-container,
+.explore-for-kids-grid-container,
+.explore-for-teachers-grid-container {
   padding: 10px;
   gap: 0 10px;
 }
-.body-g-grid-container {
+.explore-for-researchers-grid-container {
   padding-top: 10px;
   gap: 0 10px;
 }
@@ -116,32 +116,32 @@ $screen__xl: "only screen and (min-width: 1200px)";
 .footer-grid {
   gap: 5px 0px;
 }
-.sub-page-body-g-grid-container,
-.sub-page-body-d-grid-container,
-.sub-page-body-c-grid-container,
-.sub-page-body-a-grid-container,
-.sub-page-body-b-grid-container,
-.sub-page-body-e-grid-container,
-.sub-page-body-f-grid-container,
-.sub-page-body-h-grid-container {
+.aeronautics-grid-container,
+.museum-grid-container,
+.loan-grid-container,
+.cosmology-grid-container,
+.evolution-grid-container,
+.medicine-grid-container,
+.ai-grid-container,
+.ecology-grid-container {
   padding: 10px;
   gap: 0px 10px;
 }
 
-.body-b-grid-container,
-.body-b-grid-container,
-.body-e-grid-container,
-.body-f-grid-container,
-.body-g-grid-container,
-.body-signup-c-grid-container,
-.sub-page-body-g-grid-container,
-.sub-page-body-d-grid-container,
-.sub-page-body-c-grid-container,
-.sub-page-body-a-grid-container,
-.sub-page-body-b-grid-container,
-.sub-page-body-e-grid-container,
-.sub-page-body-f-grid-container,
-.sub-page-body-h-grid-container{
+.info-box-grid-container,
+.info-box-grid-container,
+.explore-for-kids-grid-container,
+.explore-for-teachers-grid-container,
+.explore-for-researchers-grid-container,
+.signup-grid-container,
+.aeronautics-grid-container,
+.museum-grid-container,
+.loan-grid-container,
+.cosmology-grid-container,
+.evolution-grid-container,
+.smedicine-grid-container,
+.ai-grid-container,
+.ecology-grid-container{
   grid-template-rows: 1fr;
 }
 
@@ -162,34 +162,34 @@ $screen__xl: "only screen and (min-width: 1200px)";
   grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
 }
 
-.body-b-grid-container {
+.info-box-grid-container {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-.body-b-info-grid-container {
+.info-box-info-grid-container {
   grid-template-columns: 5fr;
   grid-template-rows: 1fr 3.1fr;
 }
 
-.body-e-grid-container,
-.body-f-grid-container,
-.body-g-grid-container,
-.sub-page-body-g-grid-container,
-.sub-page-body-d-grid-container,
-.sub-page-body-c-grid-container,
-.sub-page-body-a-grid-container,
-.sub-page-body-b-grid-container,
-.sub-page-body-e-grid-container,
-.sub-page-body-f-grid-container,
-.sub-page-body-h-grid-container  {
+.explore-for-kids-grid-container,
+.explore-for-teachers-grid-container,
+.explore-for-researchers-grid-container,
+.aeronautics-grid-container,
+.museum-grid-container,
+.loan-grid-container,
+.cosmology-grid-container,
+.evolution-grid-container,
+.medicine-grid-container,
+.ai-grid-container,
+.ecology-grid-container  {
   grid-template-columns: 1fr 1fr;
 }
 
-.testimonial-body-d-grid-container {
+.testimonial-grid-container {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;  
   grid-template-rows: 1fr 1fr;
   gap: 15px 15px;
 }
-.body-signup-c-grid-container {
+.signup-grid-container {
   grid-template-columns: 1.5fr 1fr;
 }

@@ -1,4 +1,4 @@
-.body-b-grid-container {
+.info-box-grid-container {
   grid-template-areas: "bady-box-b-1 body-box-b-2 body-box-b-3";
 }
 .bady-box-b-1,
@@ -20,7 +20,7 @@
 }
 
 ///
-.body-b-info-grid-container {
+.info-box-info-grid-container {
   grid-template-areas:
     "body-box1-tital"
     "body-box2-info-text";

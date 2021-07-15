@@ -1,29 +1,34 @@
-.sub-page-body-b-grid-container {
-  grid-template-areas: "sub-page-body-b-box-1 sub-page-body-b-box-2";
+.explore-for-teachers-grid-container {
+  grid-template-areas: "explore-for-teachers-box-1 explore-for-teachers-box-2";
+}
+.explore-for-teachers-grid-container {
+  background-color: #f5f5f5;
 }
 
-.sub-page-body-b-box-1 {
-  grid-area: sub-page-body-b-box-1;
+.explore-for-teachers-box-2 {
+  grid-area: explore-for-teachers-box-2;
 }
 
-.sub-page-body-b-box-2 {
-  grid-area: sub-page-body-b-box-2;
-  padding: 20px 30px;
-  @media #{$screen__l} {
-    padding: 50px 80px;
-  }
+.explore-for-teachers-box-1 {
+  grid-area: explore-for-teachers-box-1;
+  padding: 50px 30px;
+  text-align: justify;
   p {
     font-size: $font--m;
     font-weight: 100;
   }
+  @media #{$screen__l} {
+    padding: 50px 80px;
+  }
 }
 
-.sub-page-body-b-box-img {
+.explore-for-teachers-box-img {
   background-image: url("../../../media/skeleton.jpg");
   width: 100%;
   min-height: 500px;
   object-fit: cover;
   background-attachment: fixed;
+  //background-attachment: scroll;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

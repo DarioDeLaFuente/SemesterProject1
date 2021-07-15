@@ -1,13 +1,13 @@
-.sub-page-body-g-grid-container {
-  grid-template-areas: "sub-page-body-g-box-1 sub-page-body-g-box-2";
+.ai-grid-container {
+  grid-template-areas: "ai-box-1 ai-box-2";
 }
 
-.sub-page-body-g-box-1 {
-  grid-area: sub-page-body-g-box-1;
+.ai-box-1 {
+  grid-area: ai-box-1;
 }
 
-.sub-page-body-g-box-2 {
-  grid-area: sub-page-body-g-box-2;
+.ai-box-2 {
+  grid-area: ai-box-2;
   padding: 20px 30px;
   @media #{$screen__l} {
     padding: 50px 80px;
@@ -18,8 +18,8 @@
   }
 }
 
-.sub-page-body-g-box-img {
-  background-image: url("../../../media/luke-ellis-craven.jpg");
+.ai-box-img {
+  background-image: url("../../../media/samuel-zeller.jpg");
   width: 100%;
   min-height: 500px;
   object-fit: cover;

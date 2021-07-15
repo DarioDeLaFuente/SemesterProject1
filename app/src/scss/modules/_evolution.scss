@@ -1,13 +1,13 @@
-.sub-page-body-h-grid-container {
-  grid-template-areas: "sub-page-body-h-box-1 sub-page-body-h-box-2";
+.evolution-grid-container {
+  grid-template-areas: "evolution-box-1 evolution-box-2";
 }
 
-.sub-page-body-h-box-1 {
-  grid-area: sub-page-body-h-box-1;
+.evolution-box-1 {
+  grid-area: evolution-box-1;
 }
 
-.sub-page-body-h-box-2 {
-  grid-area: sub-page-body-h-box-2;
+.evolution-box-2 {
+  grid-area: evolution-box-2;
   padding: 20px 30px;
   @media #{$screen__l} {
     padding: 50px 80px;
@@ -18,8 +18,8 @@
   }
 }
 
-.sub-page-body-h-box-img {
-  background-image: url("../../../media/scientific.jpg");
+.evolution-box-img {
+  background-image: url("../../../media/skeleton.jpg");
   width: 100%;
   min-height: 500px;
   object-fit: cover;
@@ -34,7 +34,7 @@
     background-attachment: scroll;
   }
   /* safari only */
-  @media not all and (min-resolution:.001dpcm) { 
+  @media not all and (min-resolution: 0.001dpcm) {
     background-attachment: scroll;
-}
+  }
 }

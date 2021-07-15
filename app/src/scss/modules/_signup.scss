@@ -1,13 +1,13 @@
-.body-signup-c-grid-container {
-  grid-template-areas: "body-signup-c-box-1 body-signup-c-box-2";
+.signup-grid-container {
+  grid-template-areas: "signup-box-1 signup-box-2";
 }
 
-.body-signup-c-box-1 {
-  grid-area: body-signup-c-box-1;
+.signup-box-1 {
+  grid-area: signup-box-1;
 }
 
-.body-signup-c-box-2 {
-  grid-area: body-signup-c-box-2;
+.signup-box-2 {
+  grid-area: signup-box-2;
   @media #{$screen__l} {
     a {
         margin: 10px;
@@ -15,8 +15,8 @@
   }
 }
 
-.body-signup-c-box-1,
-.body-signup-c-box-2 {
+.signup-box-1,
+.signup-box-2 {
   padding: 20px 30px;
   @media #{$screen__l} {
     padding: 50px 80px;
@@ -49,7 +49,7 @@
   }
 }
 
-.body-signup-c-box-1 {
+.signup-box-1 {
     h2{
         font-size: $font--m;
     }

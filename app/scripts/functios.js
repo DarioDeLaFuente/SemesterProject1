@@ -6,25 +6,25 @@ $(".nav").load("../components/nav.html");
 $(".footer").load("../components/footer.html");
 
 //Body components
-$(".hero-e").load("../components/body-components/hero-e.html");
-$(".body-b").load("../components/body-components/body-b.html");
-$(".body-e").load("../components/body-components/body-e.html");
-$(".body-f").load("../components/body-components/body-f.html");
-$(".body-g").load("../components/body-components/body-g.html");
-$(".testimonial-body-d").load("../components/body-components/testimonial-body-d.html");
-$(".body-signup-c").load("../components/body-components/body-signup-c.html");
+$(".hero").load("../components/body-components/hero.html");
+$(".info-box").load("../components/body-components/info-box.html");
+$(".explore-for-kids").load("../components/body-components/explore-for-kids.html");
+$(".explore-for-teachers").load("../components/body-components/explore-for-teachers.html");
+$(".explore-for-researchers").load("../components/body-components/explore-for-researchers.html");
+$(".testimonial").load("../components/body-components/testimonial.html");
+$(".signup").load("../components/body-components/signup.html");
 
 //Sub page components
-$(".sub-page-body-d").load("../components/sub-pages/sub-page-body-d.html");
-$(".sub-page-body-c").load("../components/sub-pages/sub-page-body-c.html");
-$(".sub-page-hero-x").load("../components/sub-pages/sub-page-hero-x.html");
-$(".sub-page-hero-x-1").load("../components/sub-pages/sub-page-hero-x-1.html");
-$(".sub-shop-hero-x-2").load("../components/sub-pages/sub-shop-hero-x-2.html");
-$(".sub-shop-hero-x-3").load("../components/sub-pages/sub-shop-hero-x-3.html");
-$(".sub-shop-body").load("../components/sub-pages/sub-shop-body.html");
-$(".sub-shop-body-2").load("../components/sub-pages/sub-shop-body-2.html");
-$(".sub-page-form").load("../components/sub-pages/sub-page-form.html");
-$(".sub-page-form-1").load("../components/sub-pages/sub-page-form-1.html");
+$(".museum").load("../components/sub-pages/museum.html");
+$(".loan").load("../components/sub-pages/loan.html");
+$(".sub-page-hero-x").load("../components/heros/sub-page-hero-x.html");
+$(".sub-page-hero-x-1").load("../components/heros/sub-page-hero-x-1.html");
+$(".sub-shop-hero-x-2").load("../components/heros/sub-shop-hero-x-2.html");
+$(".sub-shop-hero-x-3").load("../components/heros/sub-shop-hero-x-3.html");
+$(".shop").load("../components/shops/shop.html");
+$(".shop-2").load("../components/shops/shop-2.html");
+$(".volunteer-form").load("../components/forms/volunteer-form.html");
+$(".internships-form-1").load("../components/forms/internships-form-1.html");
 //$(".sub-page-body-g").load("../components/sub-pages/sub-page-body-g.html");
 //$(".sub-page-body-a").load("../components/sub-pages/sub-page-body-a.html");
 //$(".sub-page-body-b").load("../components/sub-pages/sub-page-body-b.html");
@@ -39,14 +39,14 @@ $(".sub-page-form-1").load("../components/sub-pages/sub-page-form-1.html");
  */
 
 var idsAndUrls = [
-  { id: ".sub-page-body-a", url: "../components/sub-pages/sub-page-body-a.html" },
-  { id: ".sub-page-body-b", url: "../components/sub-pages/sub-page-body-b.html" },
-  { id: ".sub-page-body-c", url: "../components/sub-pages/sub-page-body-c.html" },
-  { id: ".sub-page-body-d", url: "../components/sub-pages/sub-page-body-d.html" },
-  { id: ".sub-page-body-e", url: "../components/sub-pages/sub-page-body-e.html" },
-  { id: ".sub-page-body-f", url: "../components/sub-pages/sub-page-body-f.html" },
-  { id: ".sub-page-body-g", url: "../components/sub-pages/sub-page-body-g.html" },
-  { id: ".sub-page-body-h", url: "../components/sub-pages/sub-page-body-h.html" },
+  { id: ".cosmology", url: "../components/sub-pages/cosmology.html" },
+  { id: ".evolution", url: "../components/sub-pages/evolution.html" },
+  { id: ".loan", url: "../components/sub-pages/loan.html" },
+  { id: ".museum", url: "../components/sub-pages/museum.html" },
+  { id: ".medicine", url: "../components/sub-pages/medicine.html" },
+  { id: ".ai", url: "../components/sub-pages/ai.html" },
+  { id: ".aeronautics", url: "../components/sub-pages/aeronautics.html" },
+  { id: ".ecology", url: "../components/sub-pages/ecology.html" },
 ];
 
 idsAndUrls.forEach(function (idAndUrl) {
