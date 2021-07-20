@@ -4,6 +4,7 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.1fr 0.1fr 0.1fr;
     gap: 7px 0px;
+    position: relative;
     grid-template-areas:
       "community-form-box community-form-box"
       "community-form-box-1 community-form-box-1"
@@ -32,7 +33,6 @@
 
   .community-form-box-4 { 
     grid-area: community-form-box-4;
-    // her er den feil må prøve sette den så den føller tex box ikke form box
     input[type=submit] {
       width: 100%;
       background-color: #18a0fbc2;
@@ -47,8 +47,8 @@
       height: 80px;
       border-radius: 100%;
       position: absolute;
-      left: 80%;
-      top: 50%;
+      bottom: 40px;
+      right: calc(10% + 30px);
       z-index: 11;
       }
     }
