@@ -2,7 +2,24 @@
  * Description: Load data from the server and place the returned HTML into the matched elements. .load()
  */
 $(".header").load("../components/header.html");
-$(".nav").load("../components/nav.html");
+
+/***
+ * Adding a class in the navigation telling the user which page they're on
+ */
+$(".nav").load("../components/nav.html", function() {
+// this will get the full URL.
+var urltest = window.location.pathname.split("/").pop();
+if (urltest == '') {
+  urltest ='index.html';
+}
+// Finner ikke ut stien til nav a der jeg kan add ny css
+var urlTarget = $('.nav a[href$="'+urltest+'"]');
+// leger til classen
+urlTarget.addClass("aktiv-url");
+//console.log(urlTarget)
+});
+
+
 $(".footer").load("../components/footer.html");
 
 //Body components
@@ -33,9 +50,7 @@ $(".internships-form-1").load("../components/forms/internships-form-1.html");
 //$(".sub-page-body-h").load("../components/sub-pages/sub-page-body-h.html");
 
 /**
- *
- *
- *
+ *  id forEach() calls a provided callbackFn function once for each element in an array in ascending index order. 
  */
 
 var idsAndUrls = [
@@ -60,9 +75,7 @@ idsAndUrls.forEach(function (idAndUrl) {
 
 
 /***
- *
- *
- *
+ * scroll to id 
  */
 
  function scrollToId() {
@@ -127,5 +140,3 @@ function collapseX2() {
 function notCollapseX2() {
   document.getElementById("butten-collapse-x-2").style.display = "none";
 }
-
-
