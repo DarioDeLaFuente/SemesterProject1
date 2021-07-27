@@ -32,7 +32,6 @@
 
   .community-form-box-4 { 
     grid-area: community-form-box-4;
-    // her er den feil må prøve sette den så den føller tex box ikke form box
     input[type=submit] {
       width: 100%;
       background-color: #18a0fbc2;
@@ -58,7 +57,11 @@
     } 
   }
 
-  .community-form-box, .community-form-box-1, .community-form-box-2, .community-form-box-3, .community-form-box-4 {
+  .community-form-box,
+  .community-form-box-1, 
+  .community-form-box-2, 
+  .community-form-box-3, 
+  .community-form-box-4 {
     width: 100%; 
   } 
 
@@ -67,7 +70,6 @@
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    //cursor: pointer;
     @media #{$screen__l} {
       width: 80%;
     }
