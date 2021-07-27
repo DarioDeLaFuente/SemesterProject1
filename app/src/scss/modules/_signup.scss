@@ -10,7 +10,7 @@
   grid-area: signup-box-2;
   @media #{$screen__l} {
     a {
-        margin: 10px;
+      margin: 10px;
     }
   }
 }
@@ -45,14 +45,18 @@
 }
 @media #{$screen__l} {
   .test-bottum {
-    margin-top: 75px;
+    margin: 130px 10px 0px 0px;
   }
 }
 
+.test-bottum a {
+  color: #fff;
+}
+
 .signup-box-1 {
-    h2{
-        font-size: $font--m;
-    }
+  h2 {
+    font-size: $font--m;
+  }
   p {
     font-size: $font--m;
     font-weight: 100;
