@@ -42,6 +42,9 @@
     @media #{$screen__l} {
       font-size: 70px;
     }
+    @media (prefers-reduced-motion){
+      animation: test 0;
+    }
   }
 @media #{$screen__l} {
     font-size: 70px;
