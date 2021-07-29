@@ -420,6 +420,9 @@ h3 {
     @media only screen and (min-width: 1024px) {
       .hero-box-2 h3 {
         font-size: 70px; } }
+    @media (prefers-reduced-motion) {
+      .hero-box-2 h3 {
+        animation: test 0; } }
   @media only screen and (min-width: 1024px) {
     .hero-box-2 {
       font-size: 70px; } }
