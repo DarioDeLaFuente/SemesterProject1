@@ -63,15 +63,18 @@
     }
     .testimonial-button  {
         background-color: #18a0fb;
+        color: #fff;
         border: none;
         border-radius: 5px;
         font-size: 20px;
+        font-weight: 400;
         padding: 10px 20px 10px 20px;
         text-decoration: none;
         position: relative;	
         box-shadow: 0px 20px 54px 5px #5098c959;
         cursor: pointer;
         width: 100%;
+        display: block;
       }
       :hover {
         background-color: #0b3d5e;
@@ -81,8 +84,5 @@
       }
 }
 
-.testimonial-button a {
-  color: #fff;
-}
 
 
