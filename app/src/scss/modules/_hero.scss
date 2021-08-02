@@ -8,18 +8,21 @@
 .hero-box-1 {
   grid-area: hero-box-1;
 }
-
+.hero-baner{
+  font-weight: 400;
+}
 .hero-box-2 {
   grid-area: hero-box-2;
   display: flex;
   //justify-content: center;
   //margin-top: -150px;
   position:absolute;
-  background-color: #18a0fbc2;
+  //background-color: #18a0fbc2;
+  background-color: #1072b4;
   top: 355px;
   width: 100%;
   padding: 20px 0px 20px 0px;
-  h3 {
+  p {
     color: #fff;
     //font-size: $font--lx;
     font-size: $font--m;
