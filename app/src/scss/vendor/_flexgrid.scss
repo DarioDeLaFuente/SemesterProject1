@@ -79,7 +79,9 @@ $screen__xl: "only screen and (min-width: 1200px)";
 
 
 .hero-grid-container,
-.info-box-info-grid-container {
+.info-box-info-grid-container
+//.signup-grid-container 
+{
   display: grid;
 }
 
