@@ -11,7 +11,9 @@
       grid-area: help-box;
       width: 70%;
       text-align: center;
-      padding: 50px 50px;
+      @media #{$screen__l} {
+        padding: 50px 50px;
+      }
     }
   
   
