@@ -11,6 +11,7 @@ $screen__s: "only screen and (min-width: 640px)";
 $screen__m: "only screen and (min-width: 768px)";
 $screen__l: "only screen and (min-width: 1024px)";
 $screen__xl: "only screen and (min-width: 1200px)";
+$screen__xxl:"only screen and (min-width: 1920px)";
 
 .grid {
   flex: 1;
@@ -39,7 +40,12 @@ $screen__xl: "only screen and (min-width: 1200px)";
   }
 }
 
-
+  @media #{$screen__xxl } {
+    .bp-xxl {
+    margin: 0 auto;
+    max-width: 1600px;
+  }
+}
 
 
 .box,

@@ -27,6 +27,11 @@
     flex: 0 0 33.33333%;
     max-width: 33.33333%; } }
 
+@media only screen and (min-width: 1920px) {
+  .bp-xxl {
+    margin: 0 auto;
+    max-width: 1600px; } }
+
 .box,
 .box-1,
 .box-2,
@@ -212,7 +217,12 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  text-decoration: none; }
+  text-decoration: none;
+  position: relative; }
+  @media only screen and (min-width: 1920px) {
+    body {
+      margin: 0 auto;
+      max-width: 1600px; } }
 
 a,
 ul,
@@ -232,6 +242,23 @@ h3 {
   h2,
   h3 {
     font-size: 19px; } }
+
+/**
+* Font size in sted of HTML <small> Tag
+*/
+.small {
+  font-size: 17px; }
+
+.small-btxt {
+  font-size: 15px; }
+
+/**
+* Content inside is typically displayed in italic.
+*/
+.fs-italic {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px; }
 
 .txt-side-nav {
   color: #0b3d5e;
@@ -456,8 +483,8 @@ h3 {
   grid-template-areas: "bady-box-b-1 body-box-b-2 body-box-b-3"; }
 
 .bady-box-b-1,
-.bady-box-b-2,
-.bady-box-b-3 {
+.body-box-b-2,
+.body-box-b-3 {
   margin-bottom: 5px; }
 
 .bady-box-b-1 {
@@ -468,7 +495,8 @@ h3 {
 
 .body-box-b-3 {
   grid-area: body-box-b-3;
-  box-shadow: 0 0 2em -19px; }
+  box-shadow: 0 0 2em -19px;
+  margin-bottom: 9px; }
   .body-box-b-3 iframe {
     border: 0px; }
 
@@ -576,8 +604,10 @@ h3 {
 .mail-button {
   color: #000;
   background-color: #fff;
-  padding: 3px 8px 3px 8px;
-  border-radius: 10px; }
+  padding: 0px 5px 0px 5px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center; }
 
 .explore-for-kids-grid-container {
   grid-template-areas: "explore-for-kids-box-1 explore-for-kids-box-2"; }
@@ -587,11 +617,7 @@ h3 {
 
 .explore-for-kids-box-2 {
   grid-area: explore-for-kids-box-2;
-  padding: 50px 30px;
-  text-align: justify; }
-  .explore-for-kids-box-2 p {
-    font-size: 19px;
-    font-weight: 100; }
+  padding: 50px 30px; }
   @media only screen and (min-width: 1024px) {
     .explore-for-kids-box-2 {
       padding: 50px 80px; } }
@@ -627,11 +653,7 @@ h3 {
 
 .explore-for-teachers-box-1 {
   grid-area: explore-for-teachers-box-1;
-  padding: 50px 30px;
-  text-align: justify; }
-  .explore-for-teachers-box-1 p {
-    font-size: 19px;
-    font-weight: 100; }
+  padding: 50px 30px; }
   @media only screen and (min-width: 1024px) {
     .explore-for-teachers-box-1 {
       padding: 50px 80px; } }
@@ -664,11 +686,7 @@ h3 {
 
 .explore-for-researchers-box-2 {
   grid-area: explore-for-researchers-box-2;
-  padding: 50px 30px;
-  text-align: justify; }
-  .explore-for-researchers-box-2 p {
-    font-size: 19px;
-    font-weight: 100; }
+  padding: 50px 30px; }
   @media only screen and (min-width: 1024px) {
     .explore-for-researchers-box-2 {
       padding: 50px 80px; } }
