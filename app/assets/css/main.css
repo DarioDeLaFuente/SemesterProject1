@@ -719,9 +719,6 @@ h3 {
   @media only screen and (min-width: 1024px) {
     .testimonial-grid-container {
       padding: 50px 80px; } }
-  .testimonial-grid-container p {
-    font-size: 19px;
-    font-weight: 100; }
   .testimonial-grid-container h1 {
     font-size: 25px;
     padding-bottom: 15px; }
@@ -862,9 +859,6 @@ h3 {
   @media only screen and (min-width: 1024px) {
     .aeronautics-box-2 {
       padding: 50px 80px; } }
-  .aeronautics-box-2 p {
-    font-size: 19px;
-    font-weight: 100; }
 
 .aeronautics-box-img {
   background-image: url("../../../media/luke-ellis-craven.jpg");
@@ -898,9 +892,6 @@ h3 {
   @media only screen and (min-width: 1024px) {
     .museum-box-2 {
       padding: 50px 80px; } }
-  .museum-box-2 p {
-    font-size: 19px;
-    font-weight: 100; }
 
 .museum-box-img {
   background-image: url("../../../media/roberto-nickson.jpg");
@@ -934,9 +925,6 @@ h3 {
   @media only screen and (min-width: 1024px) {
     .loan-box-2 {
       padding: 50px 80px; } }
-  .loan-box-2 p {
-    font-size: 19px;
-    font-weight: 100; }
 
 .loan-box-img {
   background-image: url("../../../media/scientific.jpg");
@@ -970,9 +958,6 @@ h3 {
   @media only screen and (min-width: 1024px) {
     .cosmology-box-2 {
       padding: 50px 80px; } }
-  .cosmology-box-2 p {
-    font-size: 19px;
-    font-weight: 100; }
 
 .cosmology-box-img {
   background-image: url("../../../media/william-bout.jpg");
@@ -1006,9 +991,6 @@ h3 {
   @media only screen and (min-width: 1024px) {
     .evolution-box-2 {
       padding: 50px 80px; } }
-  .evolution-box-2 p {
-    font-size: 19px;
-    font-weight: 100; }
 
 .evolution-box-img {
   background-image: url("../../../media/skeleton.jpg");
@@ -1042,9 +1024,6 @@ h3 {
   @media only screen and (min-width: 1024px) {
     .medicine-box-2 {
       padding: 50px 80px; } }
-  .medicine-box-2 p {
-    font-size: 19px;
-    font-weight: 100; }
 
 .medicine-box-img {
   background-image: url("../../../media/people.jpg");
@@ -1078,9 +1057,6 @@ h3 {
   @media only screen and (min-width: 1024px) {
     .ai-box-2 {
       padding: 50px 80px; } }
-  .ai-box-2 p {
-    font-size: 19px;
-    font-weight: 100; }
 
 .ai-box-img {
   background-image: url("../../../media/samuel-zeller.jpg");
@@ -1114,9 +1090,6 @@ h3 {
   @media only screen and (min-width: 1024px) {
     .ecology-box-2 {
       padding: 50px 80px; } }
-  .ecology-box-2 p {
-    font-size: 19px;
-    font-weight: 100; }
 
 .ecology-box-img {
   background-image: url("../../../media/scientific.jpg");
