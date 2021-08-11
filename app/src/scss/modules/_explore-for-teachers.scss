@@ -12,11 +12,8 @@
 .explore-for-teachers-box-1 {
   grid-area: explore-for-teachers-box-1;
   padding: 50px 30px;
-  text-align: justify;
-  p {
-    font-size: $font--m;
-    font-weight: 100;
-  }
+  //text-align: justify;
+  
   @media #{$screen__l} {
     padding: 50px 80px;
   }

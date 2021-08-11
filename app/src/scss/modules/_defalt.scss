@@ -20,6 +20,11 @@ $font--m: 19px;
 $font--l: 25px;
 $font--lx: 35px;
 
+$font--bt: 17px;
+$font--btxt: 15px;
+$font--sub-txt: 14px;
+
+
 main {
   flex: 1;
 }
@@ -27,11 +32,6 @@ main {
 html {
   scroll-behavior: smooth;
 }
-
-//img {
-//  width: 100%;
-//}
-
 
 body {
   font-family: "Comfortaa", "Montserrat", sans-serif;
@@ -41,6 +41,11 @@ body {
   display: flex;
   flex-direction: column;
   text-decoration: none;
+  position: relative;
+  @media #{$screen__xxl } {
+    margin: 0 auto;
+    max-width: 1600px;
+  } 
 }
 
 a,
@@ -64,4 +69,27 @@ h3 {
   h3 {
     font-size: $font--m;
   }
+}
+
+
+/**
+* Font size in sted of HTML <small> Tag
+*/
+
+.small {
+  font-size: $font--bt;
+}
+
+.small-btxt {
+  font-size: $font--btxt;
+}
+
+/**
+* Content inside is typically displayed in italic.
+*/
+
+.fs-italic {
+  font-style: italic;
+  font-weight: 400;
+  font-size: $font--sub-txt;
 }
