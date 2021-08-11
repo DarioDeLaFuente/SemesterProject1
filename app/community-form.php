@@ -10,12 +10,12 @@
   </head>
   <body>
     <!-- /Header -->
-    <header role="banner" class="header"></header>
+    <header class="header"></header>
     <!-- /Header -->
     <!-- /Nav -->
-    <nav role="navigation" class="nav"></nav>
+    <nav class="nav"></nav>
     <!-- /Nav -->
-    <main role="main" class="main">
+    <main class="main">
       <!-- /Bobdy -->
       <div class="box-container box-grid-center">
         <div class="form-box">
@@ -25,7 +25,7 @@
       <!-- /Bobdy -->
     </main>
     <!-- /Footer -->
-    <footer role="contentinfo" class="footer"></footer>
+    <footer class="footer"></footer>
     <!-- /Footer -->
     <script
       src="https://code.jquery.com/jquery-3.6.0.min.js"
