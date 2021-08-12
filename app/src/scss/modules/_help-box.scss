@@ -42,7 +42,10 @@
     }
     .about-box { 
       grid-area: about-box;
-      text-align: left;
+      text-align: center;
+      @media #{$screen__l} {
+        text-align: left;
+      }
       a {
         color: green;
         font-weight: 400;

@@ -8,11 +8,11 @@
 
 .signup-box-2 {
   grid-area: signup-box-2;
-  @media #{$screen__l} {
-    a {
+  //@media #{$screen__l} {
+  //  a {
       //margin: 10px;
-    }
-  }
+   // }
+  //}
 }
 
 .signup-box-1,
