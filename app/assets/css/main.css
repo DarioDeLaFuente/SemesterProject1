@@ -1539,3 +1539,31 @@ input[type=text], select, textarea {
   @media only screen and (min-width: 1024px) {
     .help-box {
       padding: 50px 50px; } }
+
+.container {
+  display: block;
+  grid-template-columns: 1fr 0.7fr;
+  grid-template-rows: 1fr;
+  gap: 3px 16px;
+  grid-template-areas: "about-box contact-box"; }
+  @media only screen and (min-width: 1024px) {
+    .container {
+      display: grid; } }
+
+.contact-box {
+  grid-area: contact-box;
+  text-align: center;
+  font-weight: 400;
+  font-size: 15px; }
+  @media only screen and (min-width: 1024px) {
+    .contact-box {
+      text-align: left; } }
+  .contact-box i {
+    font-weight: 100; }
+
+.about-box {
+  grid-area: about-box;
+  text-align: left; }
+  .about-box a {
+    color: green;
+    font-weight: 400; }
