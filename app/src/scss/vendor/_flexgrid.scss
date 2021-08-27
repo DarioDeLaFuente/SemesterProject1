@@ -11,7 +11,7 @@ $screen__s: "only screen and (min-width: 640px)";
 $screen__m: "only screen and (min-width: 768px)";
 $screen__l: "only screen and (min-width: 1024px)";
 $screen__xl: "only screen and (min-width: 1200px)";
-$screen__xxl:"only screen and (min-width: 1920px)";
+$screen__xxl: "only screen and (min-width: 1920px)";
 
 .grid {
   flex: 1;
@@ -40,13 +40,12 @@ $screen__xxl:"only screen and (min-width: 1920px)";
   }
 }
 
-  @media #{$screen__xxl } {
-    .bp-xxl {
+@media #{$screen__xxl } {
+  .bp-xxl {
     margin: 0 auto;
     max-width: 1600px;
   }
 }
-
 
 .box,
 .box-1,
@@ -65,14 +64,12 @@ $screen__xxl:"only screen and (min-width: 1920px)";
   justify-content: center;
 }
 
-
 .grid-flex {
   display: flow-root;
   @media #{$screen__l} {
     display: flex;
   }
 }
-
 
 /**
  * Grid Containers
@@ -83,11 +80,8 @@ $screen__xxl:"only screen and (min-width: 1920px)";
  *
 */
 
-
 .hero-grid-container,
-.info-box-info-grid-container
-//.signup-grid-container 
-{
+.info-box-info-grid-container {
   display: grid;
 }
 
@@ -106,7 +100,7 @@ $screen__xxl:"only screen and (min-width: 1920px)";
 .medicine-grid-container,
 .ecology-grid-container,
 .shop-box-grid-container,
-.shop-box-2-grid-container  {
+.shop-box-2-grid-container {
   display: block;
   @media #{$screen__l} {
     display: grid;
@@ -158,11 +152,12 @@ $screen__xxl:"only screen and (min-width: 1920px)";
 .evolution-grid-container,
 .smedicine-grid-container,
 .ai-grid-container,
-.ecology-grid-container{
+.ecology-grid-container {
   grid-template-rows: 1fr;
 }
 
-.shop-box-grid-container,.shop-box-2-grid-container  {
+.shop-box-grid-container,
+.shop-box-2-grid-container {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   padding: 10px;
@@ -198,12 +193,12 @@ $screen__xxl:"only screen and (min-width: 1920px)";
 .evolution-grid-container,
 .medicine-grid-container,
 .ai-grid-container,
-.ecology-grid-container  {
+.ecology-grid-container {
   grid-template-columns: 1fr 1fr;
 }
 
 .testimonial-grid-container {
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;  
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 15px 15px;
 }

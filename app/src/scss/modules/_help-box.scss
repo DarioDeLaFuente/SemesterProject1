@@ -1,54 +1,50 @@
 .help-grid-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    gap: 0px 0px;
-    grid-template-areas:
-      "help-box";
-  }
-  
-  .help-box { 
-      grid-area: help-box;
-      width: 70%;
-      text-align: center;
-      @media #{$screen__l} {
-        padding: 50px 50px;
-      }
-    }
-  
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas: "help-box";
+}
 
-    .container {
-      display: block; 
-      @media #{$screen__l} {
-        display: grid;
-      }
-      grid-template-columns: 1fr 0.7fr; 
-      grid-template-rows: 1fr; 
-      gap: 3px 16px; 
-      grid-template-areas: 
-        "about-box contact-box"; 
-    }
-    .contact-box { 
-      grid-area: contact-box; 
-      text-align: center;
-      @media #{$screen__l} {
-        text-align: left;
-      }
-      font-weight: 400;
-      font-size: $font--btxt;
-      i {
-        font-weight: 100;
-      }
-    }
-    .about-box { 
-      grid-area: about-box;
-      text-align: center;
-      @media #{$screen__l} {
-        text-align: left;
-      }
-      a {
-        color: green;
-        font-weight: 400;
-      }
-     }
-  
+.help-box {
+  grid-area: help-box;
+  width: 70%;
+  text-align: center;
+  @media #{$screen__l} {
+    padding: 50px 50px;
+  }
+}
+
+.container {
+  display: block;
+  @media #{$screen__l} {
+    display: grid;
+  }
+  grid-template-columns: 1fr 0.7fr;
+  grid-template-rows: 1fr;
+  gap: 3px 16px;
+  grid-template-areas: "about-box contact-box";
+}
+.contact-box {
+  grid-area: contact-box;
+  text-align: center;
+  @media #{$screen__l} {
+    text-align: left;
+  }
+  font-weight: 400;
+  font-size: $font--btxt;
+  i {
+    font-weight: 100;
+  }
+}
+.about-box {
+  grid-area: about-box;
+  text-align: center;
+  @media #{$screen__l} {
+    text-align: left;
+  }
+  a {
+    color: green;
+    font-weight: 400;
+  }
+}

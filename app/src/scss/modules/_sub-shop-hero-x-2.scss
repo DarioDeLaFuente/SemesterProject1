@@ -1,17 +1,16 @@
 .sub-shop-hero-x-2-grid-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    gap: 0px 0px;
-    grid-template-areas:
-      "sub-shop-hero-x-2";
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas: "sub-shop-hero-x-2";
+}
+
+.sub-shop-hero-x-2 {
+  grid-area: sub-shop-hero-x-2;
+  padding: 50px 30px;
+  text-align: center;
+  h1 {
+    font-size: $font--l;
   }
-  
-  .sub-shop-hero-x-2 { 
-      grid-area: sub-shop-hero-x-2;
-      padding: 50px 30px;
-      text-align: center;
-      h1{
-          font-size: $font--l;
-      }
-    }
+}

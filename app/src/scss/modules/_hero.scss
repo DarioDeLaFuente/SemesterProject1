@@ -8,51 +8,35 @@
 .hero-box-1 {
   grid-area: hero-box-1;
 }
-.hero-baner{
+.hero-baner {
   font-weight: 400;
 }
 .hero-box-2 {
   grid-area: hero-box-2;
   display: flex;
-  //justify-content: center;
-  //margin-top: -150px;
-  position:absolute;
-  //background-color: #18a0fbc2;
+  position: absolute;
   background-color: #1072b4;
   top: 355px;
   width: 100%;
   padding: 20px 0px 20px 0px;
   p {
     color: #fff;
-    //font-size: $font--lx;
     font-size: $font--m;
     //test
     overflow: hidden;
     white-space: nowrap;
     margin: 0 auto;
-    //animation-duration: 6s;
     animation: test 2.4s steps(29, end);
     text-align: center;
-    //animation-iteration-count: infinite ;
-    //animation-direction: alternate;
-    //animation-fill-mode: backwards;
-    //animation-fill-mode: forwards;
-    //animation-delay: 1s;
-    //transition: opacity 100ms;
-    //letter-spacing: .9em;
-    //max-width: 60%;
-    //
     @media #{$screen__l} {
       font-size: 70px;
     }
-    @media (prefers-reduced-motion){
+    @media (prefers-reduced-motion) {
       animation: test 0;
     }
   }
-@media #{$screen__l} {
+  @media #{$screen__l} {
     font-size: 70px;
-    //margin-top: -320px;
-    //padding: 27px 0px 27px 0px;  
   }
 }
 
@@ -61,7 +45,6 @@
   height: 500px;
   background-image: url(../../media/scott-webb.webp);
   object-fit: cover;
-  //background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -74,22 +57,13 @@
   }
 }
 
-
 //test
 @keyframes test {
-  from { 
+  from {
     width: 0;
-    //margin-left: 100%;
-    //width: 300%;
-    //overflow: hidden;
   }
-  //50% {
-  //  background-color: red;
-  //}
-  to { 
+
+  to {
     width: 100%;
-    //margin-left: 0%;
-    //width: 100%; 
   }
 }
-//

@@ -24,7 +24,6 @@ $font--bt: 17px;
 $font--btxt: 15px;
 $font--sub-txt: 14px;
 
-
 main {
   flex: 1;
 }
@@ -45,7 +44,7 @@ body {
   @media #{$screen__xxl } {
     margin: 0 auto;
     max-width: 1600px;
-  } 
+  }
 }
 
 a,
@@ -54,7 +53,6 @@ li {
   list-style-type: none;
   text-decoration: none;
 }
-
 
 p,
 h1,
@@ -70,7 +68,6 @@ h3 {
     font-size: $font--m;
   }
 }
-
 
 /**
 * Font size in sted of HTML <small> Tag
