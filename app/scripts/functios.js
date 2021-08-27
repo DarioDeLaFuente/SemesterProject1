@@ -6,19 +6,18 @@ $(".header").load("../components/header.html");
 /***
  * Adding a class in the navigation telling the user which page they're on
  */
-$(".nav").load("../components/nav.html", function() {
-// this will get the full URL.
-var urltest = window.location.pathname.split("/").pop();
-if (urltest == '') {
-  urltest ='index.html';
-}
-// Finner ikke ut stien til nav a der jeg kan add ny css
-var urlTarget = $('.nav a[href$="'+urltest+'"]');
-// leger til classen
-urlTarget.addClass("aktiv-url");
-//console.log(urlTarget)
+$(".nav").load("../components/nav.html", function () {
+  // this will get the full URL.
+  var urltest = window.location.pathname.split("/").pop();
+  if (urltest == "") {
+    urltest = "index.html";
+  }
+  //
+  var urlTarget = $('.nav a[href$="' + urltest + '"]');
+  // leger til classen
+  urlTarget.addClass("aktiv-url");
+  //console.log(urlTarget)
 });
-
 
 $(".footer").load("../components/footer.html");
 
@@ -42,15 +41,9 @@ $(".shop").load("../components/shops/shop.html");
 $(".shop-2").load("../components/shops/shop-2.html");
 $(".volunteer-form").load("../components/forms/volunteer-form.html");
 $(".internships-form-1").load("../components/forms/internships-form-1.html");
-//$(".sub-page-body-g").load("../components/sub-pages/sub-page-body-g.html");
-//$(".sub-page-body-a").load("../components/sub-pages/sub-page-body-a.html");
-//$(".sub-page-body-b").load("../components/sub-pages/sub-page-body-b.html");
-//$(".sub-page-body-e").load("../components/sub-pages/sub-page-body-e.html");
-//$(".sub-page-body-f").load("../components/sub-pages/sub-page-body-f.html");
-//$(".sub-page-body-h").load("../components/sub-pages/sub-page-body-h.html");
 
 /**
- *  id forEach() calls a provided callbackFn function once for each element in an array in ascending index order. 
+ *  id forEach() calls a provided callbackFn function once for each element in an array in ascending index order.
  */
 
 var idsAndUrls = [
@@ -72,26 +65,22 @@ idsAndUrls.forEach(function (idAndUrl) {
   //console.log(idAndUrl.url);
 });
 
-
-
 /***
- * scroll to id 
+ * scroll to id
  */
 
- function scrollToId() {
-    var scrollId = location.hash.slice(1);
-    $(document).ready(function () {
-      if (scrollId) {
-        var element = document.getElementById(scrollId);
-        if (element){
-          element.scrollIntoView();
-          //console.log(scrollId,element)
-        }
+function scrollToId() {
+  var scrollId = location.hash.slice(1);
+  $(document).ready(function () {
+    if (scrollId) {
+      var element = document.getElementById(scrollId);
+      if (element) {
+        element.scrollIntoView();
+        //console.log(scrollId,element)
       }
-    });
-  }
-
-
+    }
+  });
+}
 
 /**
  * It includes openNav

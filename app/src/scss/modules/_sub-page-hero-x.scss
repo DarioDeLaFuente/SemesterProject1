@@ -1,18 +1,16 @@
 .sub-page-hero-x-grid-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    gap: 0px 0px;
-    grid-template-areas:
-      "sub-page-hero-x";
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas: "sub-page-hero-x";
+}
+
+.sub-page-hero-x {
+  grid-area: sub-page-hero-x;
+  padding: 50px 30px;
+  text-align: center;
+  h1 {
+    font-size: $font--l;
   }
-  
-  .sub-page-hero-x { 
-      grid-area: sub-page-hero-x;
-      padding: 50px 30px;
-      text-align: center;
-      h1{
-          font-size: $font--l;
-      }
-    }
-  
+}
