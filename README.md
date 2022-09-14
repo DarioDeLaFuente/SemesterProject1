@@ -1,6 +1,6 @@
 # Science museum the Semester Project 1
 
-![image](https://angry-benz-cc2cea.netlify.app/media/logo-5.webp)
+![image](https://schoolassignment.adaptmedia.net/app/uploads/2022/09/Screenshot-2022-09-14-at-19.21.53.png)
 
 This is a simple overview of the use/purpose of the project.
 
